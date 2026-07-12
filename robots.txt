@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://suncal.github.io/buildheritage/sitemap.xml

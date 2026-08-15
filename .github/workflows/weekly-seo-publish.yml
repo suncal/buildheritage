@@ -1,0 +1,52 @@
+name: Weekly SEO page publish
+
+# Publishes 3 new city×service pages every Tuesday and pings IndexNow.
+# Gradual publishing looks organic to Google; 60 pages at once looks spammy.
+
+on:
+  schedule:
+    - cron: "0 13 * * 2"   # Tuesdays 13:00 UTC = 9am ET
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Publish next city pages
+        run: python3 gen_site.py --publish-next 3 | tee /tmp/gen_out.txt
+
+      - name: Commit and push
+        run: |
+          git config user.name "buildheritage-bot"
+          git config user.email "info@buildheritage.org"
+          git add -A
+          git diff --cached --quiet || git commit -m "Auto-publish weekly local SEO pages"
+          git push
+
+      - name: Ping IndexNow with new URLs
+        run: |
+          grep '^NEWURL ' /tmp/gen_out.txt | sed 's/^NEWURL //' > /tmp/new_urls.txt || true
+          if [ -s /tmp/new_urls.txt ]; then
+            python3 - <<'EOF'
+          import json, urllib.request
+          urls = [u.strip() for u in open("/tmp/new_urls.txt") if u.strip()]
+          key = "91299c4117504e89ed344bebd0ae14b1"
+          body = json.dumps({
+              "host": "buildheritage.org",
+              "key": key,
+              "keyLocation": f"https://buildheritage.org/{key}.txt",
+              "urlList": urls,
+          }).encode()
+          req = urllib.request.Request(
+              "https://api.indexnow.org/indexnow", data=body,
+              headers={"Content-Type": "application/json; charset=utf-8"})
+          print("IndexNow:", urllib.request.urlopen(req, timeout=30).status, "for", len(urls), "urls")
+          EOF
+          else
+            echo "No new URLs this week (queue exhausted)."
+          fi

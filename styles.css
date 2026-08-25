@@ -100,6 +100,19 @@ footer{background:var(--navy);color:#B9C1D0;padding:56px 0 34px;border-top:3px s
 .legal h2{font-size:24px;margin-top:34px}
 .legal p,.legal li{color:var(--ink);margin:12px 0;font-size:16px}
 .legal ul{padding-left:22px}
+/* COST GUIDE */
+.cost-table{width:100%;border-collapse:collapse;margin:18px 0 8px;font-family:Helvetica,sans-serif;font-size:15px}
+.cost-table th{text-align:left;background:var(--navy);color:#fff;padding:11px 14px;font-weight:700}
+.cost-table td{padding:11px 14px;border-bottom:1px solid var(--rule)}
+.cost-table tr:nth-child(even) td{background:var(--cream)}
+.cost-table .rng{white-space:nowrap;font-weight:700;color:var(--navy)}
+.calc{background:var(--navy);border-radius:14px;color:#fff;padding:34px;margin:26px 0}
+.calc h3{color:var(--gold2);margin-bottom:14px;font-size:22px}
+.calc .row2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.calc label{font-family:Helvetica,sans-serif;font-size:13px;color:#9AA3B5;display:block;margin-bottom:4px}
+.calc-out{font-family:Georgia,serif;font-size:30px;color:var(--gold2);margin-top:6px;min-height:40px}
+.calc small{font-family:Helvetica,sans-serif;color:#9AA3B5;display:block;margin-top:8px;line-height:1.5}
+@media(max-width:560px){.calc .row2{grid-template-columns:1fr}.calc{padding:24px 18px}}
 /* MOBILE NAV */
 .nav-m{display:none;align-items:center;gap:10px}
 .burger{background:none;border:1.5px solid var(--gold);color:var(--gold2);border-radius:6px;font-size:19px;line-height:1;padding:8px 12px;cursor:pointer}

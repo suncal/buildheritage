@@ -269,6 +269,19 @@ footer{background:var(--navy);color:#B9C1D0;padding:56px 0 34px;border-top:3px s
 .legal h2{font-size:24px;margin-top:34px}
 .legal p,.legal li{color:var(--ink);margin:12px 0;font-size:16px}
 .legal ul{padding-left:22px}
+/* COST GUIDE */
+.cost-table{width:100%;border-collapse:collapse;margin:18px 0 8px;font-family:Helvetica,sans-serif;font-size:15px}
+.cost-table th{text-align:left;background:var(--navy);color:#fff;padding:11px 14px;font-weight:700}
+.cost-table td{padding:11px 14px;border-bottom:1px solid var(--rule)}
+.cost-table tr:nth-child(even) td{background:var(--cream)}
+.cost-table .rng{white-space:nowrap;font-weight:700;color:var(--navy)}
+.calc{background:var(--navy);border-radius:14px;color:#fff;padding:34px;margin:26px 0}
+.calc h3{color:var(--gold2);margin-bottom:14px;font-size:22px}
+.calc .row2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.calc label{font-family:Helvetica,sans-serif;font-size:13px;color:#9AA3B5;display:block;margin-bottom:4px}
+.calc-out{font-family:Georgia,serif;font-size:30px;color:var(--gold2);margin-top:6px;min-height:40px}
+.calc small{font-family:Helvetica,sans-serif;color:#9AA3B5;display:block;margin-top:8px;line-height:1.5}
+@media(max-width:560px){.calc .row2{grid-template-columns:1fr}.calc{padding:24px 18px}}
 /* MOBILE NAV */
 .nav-m{display:none;align-items:center;gap:10px}
 .burger{background:none;border:1.5px solid var(--gold);color:var(--gold2);border-radius:6px;font-size:19px;line-height:1;padding:8px 12px;cursor:pointer}
@@ -363,7 +376,7 @@ def footer(depth=0, pub=None):
 <p>Built on Quality. Rooted in Trust. Made to Last.<br>Residential &amp; commercial home services across Georgia, USA.</p></div>
 <div><h4>Services</h4>{svc}</div>
 <div><h4>Top Service Areas</h4>{"".join(area_links)}</div>
-<div><h4>Get In Touch</h4><a href="{p}index.html#contact">Request a free quote</a><a href="mailto:{LEAD_EMAIL}">{LEAD_EMAIL}</a><a href="{p}about.html">About us</a></div>
+<div><h4>Get In Touch</h4><a href="{p}index.html#contact">Request a free quote</a><a href="mailto:{LEAD_EMAIL}">{LEAD_EMAIL}</a><a href="{p}about.html">About us</a><a href="{p}cost-guide.html">2026 Cost Guide</a></div>
 </div>
 <div class="f-bottom"><span>© 2026 Build Heritage · buildheritage.org · Serving the State of Georgia</span><span><a href="{p}privacy.html">Privacy Policy</a> · Licensed &amp; Insured · Residential &amp; Commercial</span></div>
 </div></footer>"""
@@ -532,6 +545,7 @@ def build_service(slug, d, pub):
 <h3>Free {d['name']} Quote</h3>
 <p>Written, itemized, no obligation. Serving Metro Atlanta and all of Georgia.</p>
 <a class="btn" href="../index.html#contact" style="width:100%;text-align:center;display:block">Request Quote →</a>
+{f'<p style="margin-top:14px;margin-bottom:0"><a href="../cost-guide.html#{slug}">See typical {d["name"].lower()} costs in Georgia →</a></p>' if slug in COSTS else ''}
 {city_block}
 <p style="margin-top:18px;margin-bottom:8px"><b>Also need:</b></p>
 <div class="chips sans">{others}</div>
@@ -680,6 +694,127 @@ def build_about(pub):
 {contact_section()}
 """ + footer(pub=pub) + "</body></html>"
 
+# (project, low, high, unit, note) — unit None = flat range. Ranges match the
+# figures quoted in the service-page FAQs; keep both in sync when updating.
+COSTS = {
+  "painting": [
+    ("Single room, interior", 350, 900, None, "Depends on size, ceiling height, and prep needs"),
+    ("Whole-home interior repaint", 3000, 8000, None, "Typical 3–4BR Georgia home"),
+    ("Exterior repaint", 2500, 7500, None, "Includes pressure wash, scrape, prime, caulk"),
+    ("Kitchen cabinet refinishing", 1800, 4500, None, "Sprayed finish, doors and boxes"),
+  ],
+  "roofing": [
+    ("Full roof replacement", 9000, 20000, None, "Architectural shingles; size, pitch and material drive price"),
+    ("Roof leak repair", 400, 1800, None, "Diagnosis, flashing/shingle repair"),
+    ("Storm/hail damage repair", 800, 6000, None, "Often insurance-covered — we document the claim"),
+    ("Gutter replacement", 1000, 2800, None, "Seamless aluminum, average home"),
+  ],
+  "flooring": [
+    ("Luxury vinyl plank (LVP), installed", 4, 8, "sq ft", "Material + labor; prep can add cost"),
+    ("Laminate, installed", 4, 7, "sq ft", "Material + labor"),
+    ("Subfloor repair/leveling", 2, 6, "sq ft", "Only where needed — assessed at estimate"),
+    ("Old floor removal & disposal", 1, 2, "sq ft", "Tile removal runs higher"),
+  ],
+  "drywall": [
+    ("Small hole/patch repair", 150, 450, None, "Texture-matched, paint-ready"),
+    ("Room hang + finish", 1000, 2800, None, "New drywall, taped and sanded smooth"),
+    ("Popcorn ceiling removal", 1, 2, "sq ft", "Containment, removal, refinish"),
+    ("Water-damage rebuild", 500, 2500, None, "After the leak is fixed"),
+  ],
+  "packing-moving": [
+    ("Local move, 2BR apartment", 600, 1500, None, "Crew, truck, basic valuation coverage"),
+    ("Local move, 4BR home", 1500, 3500, None, "Full crew day, wrap and protection"),
+    ("Full-service packing add-on", 400, 1200, None, "All materials included"),
+    ("Office/commercial move", 1200, 6000, None, "After-hours available"),
+  ],
+  "doors": [
+    ("Entry door replacement, installed", 1200, 3500, None, "Door, hardware, weatherstripping"),
+    ("Interior door, installed", 250, 600, "door", "Slab or prehung"),
+    ("French/patio door", 1800, 4800, None, "Includes flashing and seal"),
+    ("Smart lock install", 150, 400, None, "With any door project"),
+  ],
+  "window-door-trim": [
+    ("Window casing, per window", 100, 250, "window", "Craftsman, colonial or modern profiles"),
+    ("Baseboards, installed", 6, 12, "linear ft", "Material + labor, caulked and filled"),
+    ("Crown moulding", 8, 16, "linear ft", "Room-dependent"),
+    ("Exterior PVC trim repair", 300, 1200, None, "Rot-resistant, Georgia-humidity-proof"),
+  ],
+  "framing": [
+    ("Basement framing", 7, 16, "sq ft", "Walls, soffits, blocking — inspection-ready"),
+    ("Load-bearing wall removal", 3000, 10000, None, "Includes engineering and beam"),
+    ("Rot/termite framing repair", 800, 5000, None, "After treatment; structural restoration"),
+    ("Deck framing", 15, 30, "sq ft", "Permit-ready"),
+  ],
+}
+
+def build_cost_guide(pub):
+    faqs = [
+      ("Are these Georgia renovation prices exact quotes?",
+       "No — they're the real ranges we quote across metro Atlanta, compiled August 2026. Your exact price depends on size, condition, and materials, which is why every Build Heritage quote is free, written, and itemized line by line."),
+      ("Why do Georgia renovation costs vary so much?",
+       "Three things move price more than anything: prep (the hidden condition of what's being repaired), access (pitch of a roof, floors of a walk-up), and material grade. A quote that skips prep looks cheaper and costs more by the end."),
+      ("Does a bigger city mean higher prices?",
+       "Inside metro Atlanta, prices are fairly consistent from Marietta to Decatur. What changes cost is the house itself — a 1920s Decatur bungalow needs different prep than a 2015 Alpharetta build."),
+      ("How do I budget for surprises?",
+       "Hold back 10–15% on top of any quote for what walls and roofs hide. A good contractor tells you the moment something unexpected appears — with a price — before touching it."),
+    ]
+    faq_schema = {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
+        {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in faqs]}
+    faq_html = "".join(f"<details><summary>{q}</summary><p>{a}</p></details>" for q, a in faqs)
+    sections, calc_opts = [], []
+    for slug, rows in COSTS.items():
+        d = SERVICES[slug]
+        trs = ""
+        for item, lo, hi, unit, note in rows:
+            u = f" / {unit}" if unit else ""
+            trs += f'<tr><td>{item}</td><td class="rng">${lo:,} – ${hi:,}{u}</td><td>{note}</td></tr>'
+            calc_opts.append({"label": f"{d['name']}: {item}", "lo": lo, "hi": hi, "unit": unit})
+        sections.append(f"""<h2 id="{slug}" style="margin-top:48px">{d['name']} costs in Georgia</h2>
+<table class="cost-table"><tr><th>Project</th><th>Typical range</th><th>What drives it</th></tr>{trs}</table>
+<p style="font-family:Helvetica,sans-serif;font-size:14px;color:var(--gray)">Full details on the <a href="services/{slug}.html">{d['name']} service page</a>.</p>""")
+    toc = "".join(f'<a class="chip" href="#{s}">{SERVICES[s]["name"]}</a>' for s in COSTS)
+    h = head("2026 Georgia Home Renovation Cost Guide | Build Heritage",
+             "What home projects really cost in Georgia in 2026: roofing, painting, flooring, drywall, moving, doors, trim and framing — real quoted ranges plus a free cost calculator.",
+             "cost-guide.html", f'<script type="application/ld+json">{json.dumps(faq_schema)}</script>')
+    return h + nav() + f"""
+<div class="page-hero"><div class="wrap">
+<div class="kick">Free resource · Updated August 2026</div>
+<h1>What Home Projects Really Cost in Georgia</h1>
+<p>Real price ranges from our own quoting work across metro Atlanta — no email wall, no games. Use the calculator, check the tables, and know a fair price before you talk to any contractor (including us).</p>
+</div></div>
+{trustbar()}
+<section><div class="wrap" style="max-width:860px">
+<div class="calc sans" id="calculator">
+<h3>Quick cost calculator</h3>
+<div class="row2">
+<div><label for="calc-p">Project</label><select id="calc-p"></select></div>
+<div id="calc-qty-wrap"><label for="calc-q" id="calc-unit">Quantity</label><input id="calc-q" type="number" min="1" value="100"></div>
+</div>
+<div class="calc-out" id="calc-out"></div>
+<small>Ranges reflect quotes we've written across metro Atlanta, updated August 2026. Every real quote is free, written, and itemized — <a href="index.html#contact" style="color:var(--gold2)">get yours here</a>.</small>
+</div>
+<p style="margin:26px 0 8px"><b>Jump to a trade:</b></p>
+<div class="chips sans">{toc}</div>
+{"".join(sections)}
+<div class="faq" style="margin-top:44px"><h2 style="font-size:26px">Cost questions, straight answers</h2>{faq_html}</div>
+<p style="margin-top:34px;font-family:Helvetica,sans-serif;font-size:14px;color:var(--gray)">Publishing or citing this guide? Link to it freely: <b>buildheritage.org/cost-guide.html</b> — we keep it updated as our quoting data changes.</p>
+</div></section>
+{contact_section()}
+<script>
+const OPTS={json.dumps(calc_opts)};
+const p=document.getElementById('calc-p'),q=document.getElementById('calc-q'),
+w=document.getElementById('calc-qty-wrap'),u=document.getElementById('calc-unit'),
+out=document.getElementById('calc-out');
+OPTS.forEach((o,i)=>{{const el=document.createElement('option');el.value=i;el.textContent=o.label;p.appendChild(el)}});
+function fmt(n){{return '$'+Math.round(n).toLocaleString('en-US')}}
+function calc(){{const o=OPTS[p.value];
+ if(o.unit){{w.style.display='';u.textContent=o.unit==='sq ft'?'Square feet':o.unit==='linear ft'?'Linear feet':'How many ('+o.unit+'s)';
+  const n=Math.max(1,parseFloat(q.value)||1);out.textContent=fmt(o.lo*n)+' – '+fmt(o.hi*n);}}
+ else{{w.style.display='none';out.textContent=fmt(o.lo)+' – '+fmt(o.hi);}}}}
+p.addEventListener('change',calc);q.addEventListener('input',calc);calc();
+</script>
+""" + footer(pub=pub) + "</body></html>"
+
 def build_privacy(pub):
     h = head("Privacy Policy — Build Heritage",
              "How Build Heritage collects, uses, and shares the information you submit when requesting a quote.",
@@ -726,7 +861,7 @@ def build_thanks(pub):
 """ + footer(pub=pub) + "</body></html>"
 
 def build_sitemap(pub):
-    urls = [""] + [f"services/{s}.html" for s in SERVICES] + ["service-areas.html", "about.html", "privacy.html"]
+    urls = [""] + [f"services/{s}.html" for s in SERVICES] + ["service-areas.html", "about.html", "privacy.html", "cost-guide.html"]
     urls += [f"{c}/" for c in live_cities(pub)]
     urls += [f"{c}/{s}.html" for c, s in pub]
     items = "".join(f"<url><loc>{BASE_URL}/{u}</loc><changefreq>weekly</changefreq></url>" for u in urls)
@@ -749,6 +884,7 @@ def generate_all(pub):
     open(f"{OUT}/service-areas.html", "w").write(build_areas(pub))
     open(f"{OUT}/about.html", "w").write(build_about(pub))
     open(f"{OUT}/privacy.html", "w").write(build_privacy(pub))
+    open(f"{OUT}/cost-guide.html", "w").write(build_cost_guide(pub))
     open(f"{OUT}/thanks.html", "w").write(build_thanks(pub))
     open(f"{OUT}/sitemap.xml", "w").write(build_sitemap(pub))
     open(f"{OUT}/robots.txt", "w").write(f"User-agent: *\nAllow: /\nSitemap: {BASE_URL}/sitemap.xml\n")

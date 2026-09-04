@@ -379,7 +379,14 @@ def footer(depth=0, pub=None):
 <div><h4>Get In Touch</h4><a href="{p}index.html#contact">Request a free quote</a><a href="mailto:{LEAD_EMAIL}">{LEAD_EMAIL}</a><a href="{p}about.html">About us</a><a href="{p}cost-guide.html">2026 Cost Guide</a></div>
 </div>
 <div class="f-bottom"><span>© 2026 Build Heritage · buildheritage.org · Serving the State of Georgia</span><span><a href="{p}privacy.html">Privacy Policy</a> · Licensed &amp; Insured · Residential &amp; Commercial</span></div>
-</div></footer>"""
+</div></footer>
+<script>
+try{{
+ if(!sessionStorage.getItem('bh_ref'))sessionStorage.setItem('bh_ref',JSON.stringify({{r:document.referrer||'(direct/none)',l:location.pathname+location.search}}));
+ var _d=JSON.parse(sessionStorage.getItem('bh_ref')||'{{}}'),_f=document.querySelector('input[name=ref_referrer]');
+ if(_f){{_f.value=_d.r||'';document.querySelector('input[name=ref_landing]').value=_d.l||'';document.querySelector('input[name=ref_page]').value=location.pathname;}}
+}}catch(e){{}}
+</script>"""
 
 def head(title, desc, path, schema_extra=""):
     canonical = f"{BASE_URL}/{path}" if path else BASE_URL + "/"
@@ -418,6 +425,8 @@ def contact_section():
 <div class="row"><input name="name" placeholder="Name" required><input name="phone" placeholder="Phone" required></div>
 <input name="email" type="email" placeholder="Email" required>
 <div class="row"><select name="service" required><option value="" disabled selected>Service needed</option>{opts}</select><input name="city" placeholder="City (e.g. Atlanta)" required></div>
+<select name="heard_from"><option value="" disabled selected>How did you hear about us? (optional)</option><option>Google search</option><option>Bing / other search</option><option>Referred by someone</option><option>Social media</option><option>Saw our cost guide</option><option>Other</option></select>
+<input type="hidden" name="ref_referrer"><input type="hidden" name="ref_landing"><input type="hidden" name="ref_page">
 <textarea name="details" rows="4" placeholder="Tell us briefly about the project..."></textarea>
 <label class="consent sans"><input type="checkbox" name="consent" value="yes" required>
 <span>I agree that Build Heritage and its trusted local service partners may contact me about my project at the phone number and email I provided — by phone call, text message (SMS), or email, including messages sent with automated technology. Message/data rates may apply. Consent is not a condition of purchase, and I can opt out anytime. See our <a href="{BASE_URL}/privacy.html">Privacy Policy</a>.</span></label>
@@ -827,7 +836,7 @@ def build_privacy(pub):
 <section><div class="wrap legal" style="max-width:800px">
 <p><b>Who we are.</b> Build Heritage ("we," "us") is a Georgia home-services business reachable at <a href="mailto:{LEAD_EMAIL}">{LEAD_EMAIL}</a>. This policy explains what happens to the information you submit on this site.</p>
 <h2>What we collect</h2>
-<p>When you request a quote we collect what you type into the form: your name, phone number, email address, city, the service you need, and any project details you share. We do not ask for — and you should not submit — payment details, government IDs, or other sensitive personal information. This site does not use tracking cookies.</p>
+<p>When you request a quote we collect what you type into the form: your name, phone number, email address, city, the service you need, and any project details you share. The form also records basic context about your visit — the page that referred you to us, the page you arrived on, and the page you submitted from — so we know how people find us. We do not ask for — and you should not submit — payment details, government IDs, or other sensitive personal information. This site does not use tracking cookies.</p>
 <h2>How we use it</h2>
 <ul>
 <li>To respond to your request, prepare quotes, and schedule work.</li>

@@ -104,8 +104,10 @@ try{
  var _d=JSON.parse(sessionStorage.getItem('bh_ref')||'{}'),_f=document.querySelector('input[name=ref_referrer]');
  if(_f){_f.value=_d.r||'';document.querySelector('input[name=ref_landing]').value=_d.l||'';document.querySelector('input[name=ref_page]').value=location.pathname;}
  if(location.hostname==='buildheritage.org'){
+  var _sid=sessionStorage.getItem('bh_sid');
+  if(!_sid){_sid=(Date.now().toString(36)+Math.random().toString(36).slice(2,8));sessionStorage.setItem('bh_sid',_sid);}
   var _bh=function(t){navigator.sendBeacon('https://bh-analytics.sunnyatlanta20.workers.dev/c',
-   JSON.stringify({t:t,p:location.pathname,r:document.referrer,l:_d.l||''}));};
+   JSON.stringify({t:t,p:location.pathname,r:document.referrer,l:_d.l||'',s:_sid}));};
   _bh('pv');
   var _fm=document.querySelector('form[action*="formsubmit"]');
   if(_fm)_fm.addEventListener('submit',function(){_bh('lead');});

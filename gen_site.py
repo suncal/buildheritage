@@ -420,6 +420,7 @@ def head(title, desc, path, schema_extra=""):
 <link rel="icon" type="image/svg+xml" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><rect width="48" height="48" fill="%230A1830"/><path d="M8 26 24 12l16 14" fill="none" stroke="%23C9A24B" stroke-width="3"/><text x="24" y="40" text-anchor="middle" font-family="Georgia" font-weight="bold" font-size="18" fill="%23C9A24B">BH</text></svg>'>
 <script type="application/ld+json">{json.dumps(biz)}</script>
 {schema_extra}
+<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{{"token": "6d562cd28faf4831be4f4821a833bcc6"}}'></script><!-- End Cloudflare Web Analytics -->
 </head><body>"""
 
 def contact_section():

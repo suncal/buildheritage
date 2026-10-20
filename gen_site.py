@@ -5,7 +5,7 @@ Publish next N pages:  python3 gen_site.py --publish-next 3   (used by weekly Gi
 
 Lives inside the repo so GitHub Actions can run it. State in published.json.
 """
-import os, html, json, sys
+import os, html, json, sys, datetime
 
 BASE = os.path.dirname(os.path.abspath(__file__))
 OUT = BASE  # generator lives at the repo/web root
@@ -445,6 +445,26 @@ def contact_section():
 
 # ---- page builders ---------------------------------------------------------
 
+def home_graph():
+    """Entity graph for answer engines: who we are, the site, this page's freshness, and the offer."""
+    today = datetime.date.today().isoformat()
+    return {"@context": "https://schema.org", "@graph": [
+        {"@type": "Organization", "@id": BASE_URL + "/#org", "name": "Build Heritage", "url": BASE_URL + "/",
+         "email": LEAD_EMAIL, "slogan": "Built on Quality. Rooted in Trust. Made to Last.",
+         "areaServed": {"@type": "State", "name": "Georgia"}},
+        {"@type": "WebSite", "@id": BASE_URL + "/#website", "url": BASE_URL + "/", "name": "Build Heritage",
+         "publisher": {"@id": BASE_URL + "/#org"}, "inLanguage": "en-US"},
+        {"@type": "WebPage", "@id": BASE_URL + "/#webpage", "url": BASE_URL + "/",
+         "isPartOf": {"@id": BASE_URL + "/#website"}, "about": {"@id": BASE_URL + "/#org"},
+         "dateModified": today},
+        {"@type": "Product", "@id": BASE_URL + "/#quote", "name": "Free itemized home improvement quote",
+         "description": "A free, written, line-by-line itemized estimate for " + ", ".join(d["name"].lower() for d in SERVICES.values())
+                        + " anywhere in Georgia, with no obligation.",
+         "brand": {"@id": BASE_URL + "/#org"},
+         "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD", "availability": "https://schema.org/InStock",
+                    "url": BASE_URL + "/#contact", "seller": {"@id": BASE_URL + "/#org"}}},
+    ]}
+
 def build_index(pub):
     cards = "".join(
       f"""<a class="card" href="services/{s}.html"><img src="img/{d['img']}" alt="{d['name']} services in Georgia" loading="lazy"><div class="ci"><h3>{d['name']}</h3><p>{d['tagline']}</p><span class="more sans">Learn more →</span></div></a>"""
@@ -468,7 +488,8 @@ def build_index(pub):
     faq_html = "".join(f"<details><summary>{q}</summary><p>{a}</p></details>" for q, a in faqs)
     h = head("Build Heritage — Home Services in Georgia | Moving, Painting, Drywall, Flooring, Framing, Doors, Trim, Roofing",
              "Licensed & insured home services across Georgia: packing & moving, painting, drywall, vinyl flooring, framing, doors, window & door trim, and roofing. Free itemized quotes.",
-             "", f'<script type="application/ld+json">{json.dumps(faq_schema)}</script>')
+             "", f'<script type="application/ld+json">{json.dumps(faq_schema)}</script>'
+                 f'<script type="application/ld+json">{json.dumps(home_graph())}</script>')
     return h + nav() + f"""
 <div class="hero"><img class="bg" src="img/hero.jpg" alt="Beautiful Georgia home served by Build Heritage" fetchpriority="high">
 <div class="wrap hero-in"><div class="kick">Residential &amp; Commercial · Georgia, USA</div>
@@ -888,6 +909,41 @@ def build_sitemap(pub):
 
 # ---- main ------------------------------------------------------------------
 
+AI_BOTS = ['GPTBot', 'OAI-SearchBot', 'ChatGPT-User', 'ClaudeBot', 'Claude-User', 'PerplexityBot', 'Perplexity-User', 'Google-Extended', 'Applebot-Extended', 'CCBot', 'Amazonbot', 'DuckAssistBot', 'meta-externalagent', 'Bingbot']
+
+def build_robots():
+    groups = "".join(f"User-agent: {b}\nAllow: /\n\n" for b in AI_BOTS)
+    return f"# Search engines and AI answer engines are welcome.\n\n{groups}User-agent: *\nAllow: /\n\nSitemap: {BASE_URL}/sitemap.xml\n"
+
+def build_llms(pub):
+    svc = "\n".join(f"- [{d['name']}]({BASE_URL}/services/{slug}.html): {d['tagline']}" for slug, d in SERVICES.items())
+    costs = []
+    for slug, rows in COSTS.items():
+        for item, lo, hi, unit, _ in rows:
+            costs.append(f"- {SERVICES[slug]['name']} — {item}: ${lo:,}–${hi:,}" + (f" per {unit}" if unit else ""))
+    areas = "\n".join(f"- [{c.replace('-', ' ').title()}, GA]({BASE_URL}/{c}/)" for c in sorted(live_cities(pub)))
+    return f"""# Build Heritage
+
+> Build Heritage is a licensed and insured residential and commercial home services company in Georgia, USA, serving Metro Atlanta and communities statewide. Every quote is free, written and itemized line by line, with no obligation.
+
+Contact: {LEAD_EMAIL} · Free quote: {BASE_URL}/#contact
+
+## Services
+{svc}
+
+## Typical Georgia prices (2026 cost guide)
+Ranges quoted across metro Atlanta; exact price depends on size, condition and materials. Full guide: {BASE_URL}/cost-guide.html
+{chr(10).join(costs)}
+
+## Service areas
+Georgia statewide, including {", ".join(CITIES)}. Full list: {BASE_URL}/service-areas.html
+{areas}
+
+## About
+- [About Build Heritage]({BASE_URL}/about.html)
+- [Privacy]({BASE_URL}/privacy.html)
+"""
+
 def generate_all(pub):
     os.makedirs(f"{OUT}/services", exist_ok=True)
     os.makedirs(f"{OUT}/img", exist_ok=True)
@@ -906,7 +962,8 @@ def generate_all(pub):
     open(f"{OUT}/cost-guide.html", "w").write(build_cost_guide(pub))
     open(f"{OUT}/thanks.html", "w").write(build_thanks(pub))
     open(f"{OUT}/sitemap.xml", "w").write(build_sitemap(pub))
-    open(f"{OUT}/robots.txt", "w").write(f"User-agent: *\nAllow: /\nSitemap: {BASE_URL}/sitemap.xml\n")
+    open(f"{OUT}/robots.txt", "w").write(build_robots())
+    open(f"{OUT}/llms.txt", "w").write(build_llms(pub))
     open(f"{OUT}/{INDEXNOW_KEY}.txt", "w").write(INDEXNOW_KEY)
     open(f"{OUT}/.nojekyll", "w").write("")
     open(f"{OUT}/404.html", "w").write(build_thanks(pub).replace("Thank you — we're on it.", "Page not found.").replace("Your project details are in our inbox. Expect a response within one business day with next steps for your free, itemized quote.", "That page doesn't exist — but our services do."))

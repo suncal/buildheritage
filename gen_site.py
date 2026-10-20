@@ -986,6 +986,10 @@ if __name__ == "__main__":
     if new:
         save_published([list(x) for x in pub])
     generate_all(pub)
+    # JARVIS pages live beside the generated site; re-render them so regenerating keeps their links and sitemap entries
+    jarvis = os.path.join(os.path.dirname(os.path.abspath(__file__)), "jarvis_pages.py")
+    if os.path.exists(jarvis):
+        import runpy; runpy.run_path(jarvis, run_name="__main__")
     for c, s in new:
         print(f"NEWURL {BASE_URL}/{c}/{s}.html")
     for c in set(live_cities(pub)) - before_cities:

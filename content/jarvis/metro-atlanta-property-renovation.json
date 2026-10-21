@@ -1,0 +1,37 @@
+{
+ "path": "/metro-atlanta-property-renovation/",
+ "title": "Metro Atlanta Property Renovation by Build Heritage",
+ "h1": "Metro Atlanta Property Renovation",
+ "description": "Build Heritage provides comprehensive renovation services for property managers, apartment communities, HOAs, brokers, and investors in metro Atlanta. Our",
+ "html": "<h1>Metro Atlanta Property Renovation</h1>\n<p>Build Heritage provides comprehensive renovation services for property managers, apartment communities, HOAs, brokers, and investors in metro Atlanta. Our eight‑trade team delivers quality work under one accountable contractor, fully licensed and insured in Georgia.</p>\n<h2>What you get</h2>\n<p>• Free itemized quote within 48 hours • One accountable team for all trades • Licensed &amp; insured in Georgia</p>\n<h2>Why Build Heritage</h2>\n<p>With eight specialized trades—framing, roofing, plumbing, electrical, HVAC, drywall/paint, flooring, and exterior—Build Heritage ensures seamless project execution and consistent quality. Our focus on property management and investment clients guarantees tailored solutions that meet strict timelines and budgets.</p>\n<h2>FAQ</h2>\n<p><b>What types of properties does Build Heritage renovate?</b> We specialize in residential and commercial properties, including apartment complexes, HOAs, and investor-owned buildings in metro Atlanta.</p>\n<p><b>How quickly can I receive a quote?</b> We provide a detailed, itemized quote within 48 hours of your initial inquiry.</p>\n<p><b>Next step:</b> Schedule your free quote today by calling 770‑555‑1234 or visiting buildheritage.org/quote</p>",
+ "ld": [
+  {
+   "@context": "https://schema.org",
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "What types of properties does Build Heritage renovate?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We specialize in residential and commercial properties, including apartment complexes, HOAs, and investor-owned buildings in metro Atlanta."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How quickly can I receive a quote?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We provide a detailed, itemized quote within 48 hours of your initial inquiry."
+     }
+    }
+   ]
+  }
+ ],
+ "keywords": [
+  "metro atlanta property renovation"
+ ],
+ "updated": "2026-10-21",
+ "draft_id": "dbe6a41f8e",
+ "source": "seo"
+}

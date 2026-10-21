@@ -1,0 +1,37 @@
+{
+ "path": "/investor-rehab-contractor-georgia/",
+ "title": "Investor Rehab",
+ "h1": "Investor Rehab Contractor Georgia",
+ "description": "Build Heritage is a licensed and insured Georgia general contractor serving investors in metro Atlanta. We provide a free itemized quote within 48 hours",
+ "html": "<h1>Investor Rehab Contractor Georgia</h1>\n<p>Build Heritage is a licensed and insured Georgia general contractor serving investors in metro Atlanta. We provide a free itemized quote within 48 hours for investor rehab projects, covering eight trades under one accountable team.</p>\n<h2>What you get</h2>\n<p>Free itemized quote within 48 hours, One accountable team for all trades, Licensed and insured in Georgia</p>\n<h2>Why Build Heritage</h2>\n<p>By having all eight trades under one team, we streamline the rehab process and reduce delays. This allows investors to quickly renovate and rent or sell their properties, maximizing their returns.</p>\n<h2>FAQ</h2>\n<p><b>What areas do you serve?</b> Metro Atlanta</p>\n<p><b>Do you provide a free quote?</b> Yes, within 48 hours</p>\n<p><b>Next step:</b> Get your free itemized quote by contacting Build Heritage today</p>",
+ "ld": [
+  {
+   "@context": "https://schema.org",
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "What areas do you serve?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Metro Atlanta"
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Do you provide a free quote?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, within 48 hours"
+     }
+    }
+   ]
+  }
+ ],
+ "keywords": [
+  "investor rehab contractor georgia"
+ ],
+ "updated": "2026-10-21",
+ "draft_id": "d930184e67",
+ "source": "seo"
+}

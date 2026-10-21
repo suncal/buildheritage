@@ -1,0 +1,38 @@
+{
+ "path": "/atlanta-hoa-maintenance-contractor/",
+ "title": "Atlanta HOA Contractors",
+ "h1": "Atlanta HOA Maintenance Contractor",
+ "description": "Build Heritage is a licensed and insured Georgia general contractor serving metro Atlanta with a range of services for property managers, apartment",
+ "html": "<h1>Atlanta HOA Maintenance Contractor</h1>\n<p>Build Heritage is a licensed and insured Georgia general contractor serving metro Atlanta with a range of services for property managers, apartment communities, HOAs, brokers, and investors. We provide a free itemized quote within 48 hours for all our services, including framing, roofing, plumbing, electrical, HVAC, drywall/paint, flooring, and exterior work.</p>\n<h2>What you get</h2>\n<p>Free itemized quote within 48 hours, Eight trades under one accountable team, Licensed and insured in Georgia</p>\n<h2>Why Build Heritage</h2>\n<p>By having all eight trades under one team, we can efficiently manage and complete projects, reducing the hassle and stress for our clients. Our goal is to provide high-quality work and excellent customer service to our clients in metro Atlanta.</p>\n<h2>FAQ</h2>\n<p><b>What areas do you serve?</b> We serve property managers, apartment communities, HOAs, brokers, and investors in metro Atlanta.</p>\n<p><b>Do you provide free quotes?</b> Yes, we provide a free itemized quote within 48 hours.</p>\n<p><b>Next step:</b> Contact Build Heritage at buildheritage.org to get your free itemized quote today</p>",
+ "ld": [
+  {
+   "@context": "https://schema.org",
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "What areas do you serve?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We serve property managers, apartment communities, HOAs, brokers, and investors in metro Atlanta."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Do you provide free quotes?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, we provide a free itemized quote within 48 hours."
+     }
+    }
+   ]
+  }
+ ],
+ "keywords": [
+  "atlanta hoa maintenance contractor",
+  "atlanta hoa renovation contractor"
+ ],
+ "updated": "2026-10-21",
+ "draft_id": "d97e48d5af",
+ "source": "seo"
+}

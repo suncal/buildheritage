@@ -1,0 +1,38 @@
+{
+ "path": "/georgia-hoa-maintenance-services/",
+ "title": "Georgia HOA Services",
+ "h1": "Georgia HOA Maintenance Services",
+ "description": "Build Heritage provides comprehensive maintenance and repair services to HOAs in metro Atlanta. Our team of experts handles eight trades under one",
+ "html": "<h1>Georgia HOA Maintenance Services</h1>\n<p>Build Heritage provides comprehensive maintenance and repair services to HOAs in metro Atlanta. Our team of experts handles eight trades under one accountable team, ensuring efficient and reliable service.</p>\n<h2>What you get</h2>\n<p>Free itemized quote within 48 hours, Licensed and insured in Georgia, Eight trades under one team</p>\n<h2>Why Build Heritage</h2>\n<p>With Build Heritage, you can trust that your HOA maintenance and repair needs are handled by a licensed and insured Georgia general contractor. Our team's expertise and accountability ensure that your property is well-maintained and secure.</p>\n<h2>FAQ</h2>\n<p><b>What areas do you serve?</b> Metro Atlanta</p>\n<p><b>How long does it take to get a quote?</b> Within 48 hours</p>\n<p><b>Next step:</b> Get your free itemized quote today by visiting buildheritage.org</p>",
+ "ld": [
+  {
+   "@context": "https://schema.org",
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "What areas do you serve?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Metro Atlanta"
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How long does it take to get a quote?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Within 48 hours"
+     }
+    }
+   ]
+  }
+ ],
+ "keywords": [
+  "georgia hoa maintenance services",
+  "georgia hoa repair services"
+ ],
+ "updated": "2026-10-21",
+ "draft_id": "d07b0b7990",
+ "source": "seo"
+}

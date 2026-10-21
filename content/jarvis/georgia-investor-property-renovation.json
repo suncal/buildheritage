@@ -1,0 +1,37 @@
+{
+ "path": "/georgia-investor-property-renovation/",
+ "title": "Georgia Investor Property Renovation Services",
+ "h1": "Georgia Investor Property Renovation",
+ "description": "Build Heritage delivers complete renovation solutions for Georgia investors, handling framing, roofing, plumbing, electrical, HVAC, drywall/paint,",
+ "html": "<h1>Georgia Investor Property Renovation</h1>\n<p>Build Heritage delivers complete renovation solutions for Georgia investors, handling framing, roofing, plumbing, electrical, HVAC, drywall/paint, flooring, and exterior work under one accountable team. We provide a free itemized quote within 48 hours and are fully licensed and insured in Georgia.</p>\n<h2>What you get</h2>\n<p>• Free itemized quote within 48 hours • Eight trades under one accountable team • Licensed and insured in Georgia</p>\n<h2>Why Build Heritage</h2>\n<p>Our integrated approach reduces coordination costs and speeds project delivery, ensuring investors meet deadlines and budgets. With experience serving property managers, apartment communities, HOAs, brokers, and investors in metro Atlanta, we understand the unique needs of investment properties.</p>\n<h2>FAQ</h2>\n<p><b>Do you offer services for apartment communities?</b> Yes, we specialize in renovations for apartment communities, ensuring minimal disruption to residents.</p>\n<p><b>What is the turnaround time for a quote?</b> We provide a detailed, free itemized quote within 48 hours of your initial request.</p>\n<p><b>Next step:</b> Schedule your free quote today by calling Build Heritage at (555) 123-4567 or visiting buildheritage.org/quote</p>",
+ "ld": [
+  {
+   "@context": "https://schema.org",
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Do you offer services for apartment communities?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, we specialize in renovations for apartment communities, ensuring minimal disruption to residents."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What is the turnaround time for a quote?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We provide a detailed, free itemized quote within 48 hours of your initial request."
+     }
+    }
+   ]
+  }
+ ],
+ "keywords": [
+  "georgia investor property renovation"
+ ],
+ "updated": "2026-10-21",
+ "draft_id": "db5da609bc",
+ "source": "seo"
+}

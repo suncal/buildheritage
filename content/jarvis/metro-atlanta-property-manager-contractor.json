@@ -1,0 +1,37 @@
+{
+ "path": "/metro-atlanta-property-manager-contractor/",
+ "title": "Metro Atlanta Contractor",
+ "h1": "Metro Atlanta Property Manager Contractor",
+ "description": "Build Heritage is a Georgia general contractor serving metro Atlanta property managers with eight trades under one team. We provide a free itemized quote",
+ "html": "<h1>Metro Atlanta Property Manager Contractor</h1>\n<p>Build Heritage is a Georgia general contractor serving metro Atlanta property managers with eight trades under one team. We provide a free itemized quote within 48 hours for your property management needs.</p>\n<h2>What you get</h2>\n<p>Licensed and insured in Georgia, eight trades under one team, free itemized quote within 48 hours</p>\n<h2>Why Build Heritage</h2>\n<p>With Build Heritage, you get a single point of contact and accountability for all your property management construction needs. Our team ensures efficient and high-quality work, saving you time and resources.</p>\n<h2>FAQ</h2>\n<p><b>What areas do you serve?</b> Metro Atlanta</p>\n<p><b>Do you provide free quotes?</b> Yes, within 48 hours</p>\n<p><b>Next step:</b> Contact Build Heritage at buildheritage.org to get your free itemized quote today</p>",
+ "ld": [
+  {
+   "@context": "https://schema.org",
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "What areas do you serve?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Metro Atlanta"
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Do you provide free quotes?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, within 48 hours"
+     }
+    }
+   ]
+  }
+ ],
+ "keywords": [
+  "metro atlanta property manager contractor"
+ ],
+ "updated": "2026-10-21",
+ "draft_id": "d7a2e5b380",
+ "source": "seo"
+}

@@ -1,0 +1,37 @@
+{
+ "path": "/itemized-contractor-quote-atlanta/",
+ "title": "Atlanta Contractor",
+ "h1": "Itemized Contractor Quote Atlanta",
+ "description": "Build Heritage provides free itemized quotes within 48 hours for property managers and owners in metro Atlanta. Our licensed and insured team handles",
+ "html": "<h1>Itemized Contractor Quote Atlanta</h1>\n<p>Build Heritage provides free itemized quotes within 48 hours for property managers and owners in metro Atlanta. Our licensed and insured team handles eight trades under one accountable team.</p>\n<h2>What you get</h2>\n<p>Free itemized quote, One-stop solution for eight trades, Fast 48-hour turnaround</p>\n<h2>Why Build Heritage</h2>\n<p>We serve property managers, apartment communities, HOAs, brokers, and investors with a streamlined process. Our team is licensed, insured, and experienced in handling various projects in metro Atlanta.</p>\n<h2>FAQ</h2>\n<p><b>What areas do you serve?</b> Metro Atlanta</p>\n<p><b>Are you licensed and insured?</b> Yes, in Georgia</p>\n<p><b>Next step:</b> Get your free itemized quote at buildheritage.org</p>",
+ "ld": [
+  {
+   "@context": "https://schema.org",
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "What areas do you serve?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Metro Atlanta"
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Are you licensed and insured?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, in Georgia"
+     }
+    }
+   ]
+  }
+ ],
+ "keywords": [
+  "itemized contractor quote atlanta"
+ ],
+ "updated": "2026-10-21",
+ "draft_id": "de412a0652",
+ "source": "seo"
+}

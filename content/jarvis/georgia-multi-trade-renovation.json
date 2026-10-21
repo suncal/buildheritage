@@ -1,0 +1,37 @@
+{
+ "path": "/georgia-multi-trade-renovation/",
+ "title": "Georgia Renovation",
+ "h1": "Georgia Multi-Trade Renovation",
+ "description": "Build Heritage is a Georgia general contractor providing eight trades under one team, serving metro Atlanta. We offer a free itemized quote within 48",
+ "html": "<h1>Georgia Multi-Trade Renovation</h1>\n<p>Build Heritage is a Georgia general contractor providing eight trades under one team, serving metro Atlanta. We offer a free itemized quote within 48 hours for property managers, apartment communities, HOAs, brokers, and investors.</p>\n<h2>What you get</h2>\n<p>Free itemized quote within 48 hours, Licensed and insured in Georgia, Eight trades under one accountable team</p>\n<h2>Why Build Heritage</h2>\n<p>With Build Heritage, you get a single point of contact and accountability for your renovation project. Our team of experts ensures that your project is completed efficiently and to your satisfaction.</p>\n<h2>FAQ</h2>\n<p><b>What areas do you serve?</b> Metro Atlanta</p>\n<p><b>Are you licensed and insured?</b> Yes, in Georgia</p>\n<p><b>Next step:</b> Contact Build Heritage at buildheritage.org to get your free quote today</p>",
+ "ld": [
+  {
+   "@context": "https://schema.org",
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "What areas do you serve?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Metro Atlanta"
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Are you licensed and insured?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, in Georgia"
+     }
+    }
+   ]
+  }
+ ],
+ "keywords": [
+  "georgia multi-trade renovation"
+ ],
+ "updated": "2026-10-21",
+ "draft_id": "d924b0a53e",
+ "source": "seo"
+}

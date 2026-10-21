@@ -1,0 +1,37 @@
+{
+ "path": "/georgia-property-maintenance-contractor/",
+ "title": "Georgia Property Maintenance",
+ "h1": "Georgia Property Maintenance Contractor",
+ "description": "Build Heritage is a Georgia general contractor serving property managers and owners in metro Atlanta. We provide a free itemized quote within 48 hours for",
+ "html": "<h1>Georgia Property Maintenance Contractor</h1>\n<p>Build Heritage is a Georgia general contractor serving property managers and owners in metro Atlanta. We provide a free itemized quote within 48 hours for our services, which include eight trades under one accountable team.</p>\n<h2>What you get</h2>\n<p>Framing, Roofing, Plumbing, Electrical, HVAC, Drywall/Paint, Flooring, Exterior</p>\n<h2>Why Build Heritage</h2>\n<p>We are licensed and insured in Georgia, ensuring a secure and reliable experience for our clients. Our team's expertise and accountability simplify property maintenance for property managers, apartment communities, HOAs, brokers, and investors.</p>\n<h2>FAQ</h2>\n<p><b>What areas do you serve?</b> Metro Atlanta</p>\n<p><b>Do you provide free quotes?</b> Yes, within 48 hours</p>\n<p><b>Next step:</b> Contact Build Heritage at buildheritage.org to request your free itemized quote today</p>",
+ "ld": [
+  {
+   "@context": "https://schema.org",
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "What areas do you serve?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Metro Atlanta"
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Do you provide free quotes?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, within 48 hours"
+     }
+    }
+   ]
+  }
+ ],
+ "keywords": [
+  "georgia property maintenance contractor"
+ ],
+ "updated": "2026-10-21",
+ "draft_id": "d95c08f7de",
+ "source": "seo"
+}

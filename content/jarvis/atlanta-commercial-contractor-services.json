@@ -1,9 +1,9 @@
 {
  "path": "/atlanta-commercial-contractor-services/",
- "title": "Atlanta Commercial Contractor Services | Build Heritage",
- "h1": "Atlanta Commercial Contractor Services",
+ "title": "Atlanta Contractor Services | Build Heritage",
+ "h1": "Atlanta Contractor Services",
  "description": "Build Heritage is a Georgia‑licensed general contractor offering eight trades under one accountable team. We provide property managers, apartment",
- "html": "<h1>Atlanta Commercial Contractor Services</h1>\n<p>Build Heritage is a Georgia‑licensed general contractor offering eight trades under one accountable team. We provide property managers, apartment communities, HOAs, brokers, and investors in metro Atlanta with a free, itemized quote within 48 hours.</p>\n<h2>What you get</h2>\n<p>Free itemized quote in 48 hrs; All‑in‑one team for framing, roofing, plumbing, electrical, HVAC, drywall/paint, flooring, exterior; Licensed and insured in Georgia</p>\n<h2>Why Build Heritage</h2>\n<p>Our integrated approach reduces coordination delays and eliminates the need for multiple subcontractors. Serving the Atlanta market, we understand local codes and timelines to keep projects on schedule.</p>\n<h2>FAQ</h2>\n<p><b>How quickly can I get a quote for my commercial project?</b> We deliver a detailed, itemized quote within 48 hours of your request.</p>\n<p><b>Are you licensed and insured for work in Georgia?</b> Yes, Build Heritage holds all required Georgia licenses and carries full insurance coverage.</p>\n<p><b>Next step:</b> Request your free 48‑hour quote now by contacting Build Heritage.</p>",
+ "html": "<h1>Atlanta Contractor Services</h1>\n<p>Build Heritage is a Georgia‑licensed general contractor offering eight trades under one accountable team. We provide property managers, apartment communities, HOAs, brokers, and investors in metro Atlanta with a free, itemized quote within 48 hours.</p>\n<h2>What you get</h2>\n<p>Free itemized quote in 48 hrs; All‑in‑one team for framing, roofing, plumbing, electrical, HVAC, drywall/paint, flooring, exterior; Licensed and insured in Georgia</p>\n<h2>Why Build Heritage</h2>\n<p>Our integrated approach reduces coordination delays and eliminates the need for multiple subcontractors.</p>\n<h2>FAQ</h2>\n<p><b>How quickly can I get a quote for my project?</b> We deliver a detailed, itemized quote within 48 hours of your request.</p>\n<p><b>Are you licensed and insured for work in Georgia?</b> Yes, Build Heritage is licensed and insured in Georgia.</p>\n<p><b>Next step:</b> Request your free 48‑hour quote now by contacting Build Heritage.</p>",
  "ld": [
   {
    "@context": "https://schema.org",
@@ -11,7 +11,7 @@
    "mainEntity": [
     {
      "@type": "Question",
-     "name": "How quickly can I get a quote for my commercial project?",
+     "name": "How quickly can I get a quote for my project?",
      "acceptedAnswer": {
       "@type": "Answer",
       "text": "We deliver a detailed, itemized quote within 48 hours of your request."
@@ -22,7 +22,7 @@
      "name": "Are you licensed and insured for work in Georgia?",
      "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Yes, Build Heritage holds all required Georgia licenses and carries full insurance coverage."
+      "text": "Yes, Build Heritage is licensed and insured in Georgia."
      }
     }
    ]

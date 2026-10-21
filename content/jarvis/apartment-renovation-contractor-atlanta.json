@@ -3,7 +3,7 @@
  "title": "Apartment Renovation Contractor Atlanta",
  "h1": "Apartment Renovation Contractor Atlanta",
  "description": "Build Heritage is your one‑stop general contractor for apartment renovations in metro Atlanta, handling framing, roofing, plumbing, electrical, HVAC,",
- "html": "<h1>Apartment Renovation Contractor Atlanta</h1>\n<p>Build Heritage is your one‑stop general contractor for apartment renovations in metro Atlanta, handling framing, roofing, plumbing, electrical, HVAC, drywall/paint, flooring, and exterior work under one accountable team. We provide a free itemized quote within 48 hours and are fully licensed and insured in Georgia.</p>\n<h2>What you get</h2>\n<p>• Free itemized quote in 48 hours • Licensed &amp; insured in Georgia • Eight trades under one accountable team</p>\n<h2>Why Build Heritage</h2>\n<p>Our integrated approach reduces coordination headaches and keeps projects on schedule and within budget. We serve property managers, apartment communities, HOAs, brokers, and investors with proven expertise in the Atlanta market.</p>\n<h2>FAQ</h2>\n<p><b>Do you offer a free quote?</b> Yes, we provide a free itemized quote within 48 hours of your request.</p>\n<p><b>Are you licensed and insured in Georgia?</b> Yes, Build Heritage is fully licensed and insured in Georgia.</p>\n<p><b>Next step:</b> Contact us today to schedule your free quote and start your apartment renovation project.</p>",
+ "html": "<h1>Apartment Renovation Contractor Atlanta</h1>\n<p>Build Heritage is your one‑stop general contractor for apartment renovations in metro Atlanta, handling framing, roofing, plumbing, electrical, HVAC, drywall/paint, flooring, and exterior work under one accountable team. We provide a free itemized quote within 48 hours and are licensed and insured in Georgia.</p>\n<h2>What you get</h2>\n<p>• Free itemized quote in 48 hours • Licensed &amp; insured in Georgia • Eight trades under one accountable team</p>\n<h2>Why Build Heritage</h2>\n<p>Our integrated approach reduces coordination headaches. We serve property managers, apartment communities, HOAs, brokers, and investors in the Atlanta market.</p>\n<h2>FAQ</h2>\n<p><b>Do you offer a free quote?</b> Yes, we provide a free itemized quote within 48 hours of your request.</p>\n<p><b>Are you licensed and insured in Georgia?</b> Yes, Build Heritage is licensed and insured in Georgia.</p>\n<p><b>Next step:</b> Contact us today to schedule your free quote and start your apartment renovation project.</p>",
  "ld": [
   {
    "@context": "https://schema.org",
@@ -22,7 +22,7 @@
      "name": "Are you licensed and insured in Georgia?",
      "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Yes, Build Heritage is fully licensed and insured in Georgia."
+      "text": "Yes, Build Heritage is licensed and insured in Georgia."
      }
     }
    ]

@@ -1,0 +1,37 @@
+{
+ "path": "/atlanta-property-rehab-contractor/",
+ "title": "Atlanta Rehab",
+ "h1": "Atlanta Property Rehab Contractor",
+ "description": "Build Heritage is a licensed and insured Georgia general contractor serving metro Atlanta with a range of services. We provide a free itemized quote",
+ "html": "<h1>Atlanta Property Rehab Contractor</h1>\n<p>Build Heritage is a licensed and insured Georgia general contractor serving metro Atlanta with a range of services. We provide a free itemized quote within 48 hours for property managers, apartment communities, HOAs, brokers, and investors.</p>\n<h2>What you get</h2>\n<p>Free itemized quote within 48 hours, Eight trades under one team, Licensed and insured in Georgia</p>\n<h2>Why Build Heritage</h2>\n<p>By having eight trades under one accountable team, we streamline the rehab process and reduce hassle for our clients. Our team is dedicated to providing high-quality work and excellent customer service.</p>\n<h2>FAQ</h2>\n<p><b>What areas do you serve?</b> Metro Atlanta</p>\n<p><b>Do you provide free quotes?</b> Yes, within 48 hours</p>\n<p><b>Next step:</b> Contact Build Heritage at buildheritage.org to get your free itemized quote today</p>",
+ "ld": [
+  {
+   "@context": "https://schema.org",
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "What areas do you serve?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Metro Atlanta"
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Do you provide free quotes?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, within 48 hours"
+     }
+    }
+   ]
+  }
+ ],
+ "keywords": [
+  "atlanta property rehab contractor"
+ ],
+ "updated": "2026-10-21",
+ "draft_id": "d8c63e3b41",
+ "source": "seo"
+}

@@ -414,7 +414,7 @@ def head(title, desc, path, schema_extra=""):
 <meta name="description" content="{html.escape(desc)}">
 <link rel="canonical" href="{canonical}">
 <meta property="og:title" content="{html.escape(title)}"><meta property="og:description" content="{html.escape(desc)}">
-<meta property="og:type" content="website"><meta property="og:url" content="{canonical}">
+<meta property="og:type" content="website"><meta property="og:url" content="{canonical}"><meta property="og:image" content="https://buildheritage.org/img/hero.jpg"><meta property="og:image:width" content="1400"><meta property="og:image:height" content="781"><meta name="twitter:card" content="summary_large_image">
 <meta name="robots" content="index, follow">
 <link rel="stylesheet" href="{'../' if '/' in path else ''}styles.css">
 <link rel="icon" type="image/svg+xml" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><rect width="48" height="48" fill="%230A1830"/><path d="M8 26 24 12l16 14" fill="none" stroke="%23C9A24B" stroke-width="3"/><text x="24" y="40" text-anchor="middle" font-family="Georgia" font-weight="bold" font-size="18" fill="%23C9A24B">BH</text></svg>'>

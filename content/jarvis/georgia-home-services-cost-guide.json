@@ -1,0 +1,46 @@
+{
+ "path": "/georgia-home-services-cost-guide/",
+ "title": "Georgia Home Services Cost Guide",
+ "h1": "Georgia Home Services Cost Guide",
+ "description": "Build Heritage gives you a clear, itemized estimate for any home‑service project in Georgia. We cover eight trades—Packing & Moving, Painting, Drywall,",
+ "html": "<h1>Georgia Home Services Cost Guide</h1>\n<p>Build Heritage gives you a clear, itemized estimate for any home‑service project in Georgia. We cover eight trades—Packing &amp; Moving, Painting, Drywall, Flooring &amp; Vinyl, Framing, Doors, Window &amp; Door Trim, Roofing &amp; Tiles—across metro Atlanta and the state.</p>\n<h2>How to get a quote for a roof replacement in Atlanta</h2>\n<ol><li>Visit the <b><a href=\"/services/roofing.html\">roofing page</a></b> and click “Request a Quote.”</li><li>Enter your address in Atlanta and describe the work.</li><li>Receive a written, itemized quote within one business day.</li><li>Review the quote and confirm the project.</li></ol>\n<p>The 2026 cost guide lists a full roof replacement at <b>$9,000‑$20,000</b>. Hold back an extra <b>10‑15%</b> for hidden issues.</p>\n<h2>What you get</h2>\n<ul><li>Free, written, itemized quote for any of the eight trades.</li><li>Response within one business day.</li><li>Licensed and insured in Georgia.</li><li>Quote includes labor, materials, and disposal fees.</li></ul>\n<h2>FAQ</h2>\n<p><b>What areas do you serve?</b> We cover Atlanta, Marietta, Alpharetta, Roswell, Sandy Springs, Johns Creek, Duluth, Lawrenceville, Decatur, Smyrna, Kennesaw, Woodstock, Cumming, Gainesville, Athens, Augusta, Macon, Savannah, and Columbus.</p>\n<p><b>Can I get a cost estimate for a whole‑home interior repaint?</b> Yes. The cost guide shows a range of <b>$3,000‑$8,000</b>. Request a quote on the painting page for a detailed estimate.</p>\n<p><b>What if I need to hold back money for hidden issues?</b> The guide recommends setting aside <b>10‑15%</b> above the quoted amount for unforeseen problems.</p>\n<p><a href=\"https://buildheritage.org/itemized-contractor-quote-atlanta/\">Get your free quote now</a></p>",
+ "ld": [
+  {
+   "@context": "https://schema.org",
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "What areas do you serve?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We cover Atlanta, Marietta, Alpharetta, Roswell, Sandy Springs, Johns Creek, Duluth, Lawrenceville, Decatur, Smyrna, Kennesaw, Woodstock, Cumming, Gainesville, Athens, Augusta, Macon, Savannah, and Columbus."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can I get a cost estimate for a whole‑home interior repaint?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. The cost guide shows a range of **$3,000‑$8,000**. Request a quote on the painting page for a detailed estimate."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What if I need to hold back money for hidden issues?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The guide recommends setting aside **10‑15%** above the quoted amount for unforeseen problems."
+     }
+    }
+   ]
+  }
+ ],
+ "keywords": [
+  "georgia home services cost guide",
+  "georgia home repair cost guide"
+ ],
+ "updated": "2026-10-25",
+ "draft_id": "d49c0e46c3",
+ "source": "seo"
+}

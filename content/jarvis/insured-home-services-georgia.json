@@ -1,0 +1,45 @@
+{
+ "path": "/insured-home-services-georgia/",
+ "title": "Insured Home Services Georgia",
+ "h1": "Insured Home Services Georgia",
+ "description": "You can get a free, written, itemized quote for any of our eight trades—Painting, Drywall, Flooring & Vinyl, Framing, Doors, Window & Door Trim, Roofing &",
+ "html": "<h1>Insured Home Services Georgia</h1>\n<p>You can get a free, written, itemized quote for any of our eight trades—Painting, Drywall, Flooring &amp; Vinyl, Framing, Doors, Window &amp; Door Trim, Roofing &amp; Tiles, Packing &amp; Moving—served in metro Atlanta and surrounding Georgia. We are licensed and insured in Georgia and respond within one business day.</p>\n<h2>Our Services</h2>\n<p>We offer eight trades to help you with your home services needs. Our services include Painting, Drywall, Flooring &amp; Vinyl, Framing, Doors, Window &amp; Door Trim, Roofing &amp; Tiles, and Packing &amp; Moving.</p>\n<h2>What You Get</h2>\n<p>You get a free, written, itemized quote for our services. Our cost guide, updated August 2026, lists ranges for our services, such as full roof replacement ($9,000-$20,000) and whole-home interior repaint ($3,000-$8,000). We also advise holding back 10-15% for hidden issues.</p>\n<h2>FAQ</h2>\n<p><b>What areas do you serve?</b> We serve Atlanta, Marietta, Alpharetta, Roswell, Sandy Springs, Johns Creek, Duluth, Lawrenceville, Decatur, Smyrna, Kennesaw, Woodstock, Cumming, Gainesville, Athens, Augusta, Macon, Savannah, and Columbus.</p>\n<p><b>How long does the quote take?</b> We reply within one business day.</p>\n<p><b>What services do you offer?</b> We offer eight trades: Painting, Drywall, Flooring &amp; Vinyl, Framing, Doors, Window &amp; Door Trim, Roofing &amp; Tiles, and Packing &amp; Moving.</p>\n<p>To get started, fill out the quote form on our website or email us at info@buildheritage.org to request a free, written, itemized quote for our insured home services in Georgia.</p>",
+ "ld": [
+  {
+   "@context": "https://schema.org",
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "What areas do you serve?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We serve Atlanta, Marietta, Alpharetta, Roswell, Sandy Springs, Johns Creek, Duluth, Lawrenceville, Decatur, Smyrna, Kennesaw, Woodstock, Cumming, Gainesville, Athens, Augusta, Macon, Savannah, and Columbus."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How long does the quote take?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We reply within one business day."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What services do you offer?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We offer eight trades: Painting, Drywall, Flooring & Vinyl, Framing, Doors, Window & Door Trim, Roofing & Tiles, and Packing & Moving."
+     }
+    }
+   ]
+  }
+ ],
+ "keywords": [
+  "insured home services georgia"
+ ],
+ "updated": "2026-10-26",
+ "draft_id": "daf7039df7",
+ "source": "seo"
+}

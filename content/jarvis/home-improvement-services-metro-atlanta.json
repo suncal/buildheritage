@@ -1,0 +1,45 @@
+{
+ "path": "/home-improvement-services-metro-atlanta/",
+ "title": "Home improvement services metro Atlanta",
+ "h1": "Home improvement services metro Atlanta",
+ "description": "Build Heritage offers free, written, itemized quotes for home‑improvement work in metro Atlanta. You can choose from our eight trades and receive a",
+ "html": "<h1>Home improvement services metro Atlanta</h1>\n<p>Build Heritage offers free, written, itemized quotes for home‑improvement work in metro Atlanta. You can choose from our eight trades and receive a response within one business day.</p>\n<h2>How the process works</h2>\n<ol><li>Complete the quote form or email info@buildheritage.org.</li><li>We reply within one business day with a detailed estimate.</li><li>Select the trades you need—painting, drywall, flooring &amp; vinyl, framing, doors, window &amp; door trim, packing &amp; moving, or roofing &amp; tiles.</li><li>We schedule the work at a convenient time.</li><li>Licensed and insured Georgia contractors finish the project.</li></ol>\n<h2>What you can expect</h2>\n<ul><li><b>Trades available</b>: Packing &amp; moving, painting, drywall, flooring &amp; vinyl, framing, doors, window &amp; door trim, roofing &amp; tiles.</li><li><b>Cost guide (August 2026)</b>:</li><li>Full roof replacement: $9,000–$20,000</li><li>Whole‑home interior repaint: $3,000–$8,000</li><li><b>Financial advice</b>: Keep 10–15 % of the quoted amount aside for hidden issues.</li><li><b>Coverage area</b>: Atlanta, Marietta, Alpharetta, Roswell, Sandy Springs, Johns Creek, Duluth, Lawrenceville, Decatur, Smyrna, Kennesaw, Woodstock, Cumming, Gainesville, Athens, Augusta, Macon, Savannah, Columbus.</li><li><b>Credentials</b>: Licensed and insured in Georgia.</li></ul>\n<h2>FAQ</h2>\n<p><b>How long does it take to receive a quote?</b> You will receive a written, itemized quote within one business day of contacting us.</p>\n<p><b>Are you licensed and insured?</b> Yes, we are licensed and insured in Georgia.</p>\n<p><b>Can I request only one of the eight trades?</b> Yes. You can select any combination of the trades we provide.</p>\n<p><b>What if I need work in a different metro‑Atlanta city?</b> We serve all the listed cities, including Marietta, Alpharetta, Roswell, Sandy Springs, and others—see the full list on our <a href=\"/service-areas.html\">service‑areas page</a>.</p>\n<p><b>How do I start the process?</b> Submit a request through our quote form or email us at info@buildheritage.org.</p>\n<p><a href=\"/itemized-contractor-quote-atlanta/\">Get your free itemized quote now</a></p>",
+ "ld": [
+  {
+   "@context": "https://schema.org",
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "How long does it take to receive a quote?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "You will receive a written, itemized quote within one business day of contacting us."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Are you licensed and insured?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, we are licensed and insured in Georgia."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can I request only one of the eight trades?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. You can select any combination of the trades we provide."
+     }
+    }
+   ]
+  }
+ ],
+ "keywords": [
+  "home improvement services metro atlanta"
+ ],
+ "updated": "2026-10-27",
+ "draft_id": "daa86e9c7b",
+ "source": "seo"
+}

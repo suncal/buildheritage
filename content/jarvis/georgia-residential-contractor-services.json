@@ -1,0 +1,45 @@
+{
+ "path": "/georgia-residential-contractor-services/",
+ "title": "Georgia Residential Contractor Services",
+ "h1": "Georgia Residential Contractor Services",
+ "description": "Build Heritage is a Georgia home‑services contractor serving metro Atlanta and the rest of Georgia. Get a free, written, itemized quote within one",
+ "html": "<h1>Georgia Residential Contractor Services</h1>\n<p>Build Heritage is a Georgia home‑services contractor serving metro Atlanta and the rest of Georgia. Get a free, written, itemized quote within one business day and start planning your project.</p>\n<h2>How it works for a whole‑home interior repaint in Atlanta</h2>\n<ol><li>Visit the <b>Itemized Contractor Quote</b> page and fill out the quote form.</li><li>Submit your contact info; you’ll receive a written estimate by the next business day.</li><li>Review the estimate (typical range $3,000‑$8,000) and decide if you want to proceed.</li><li>Schedule the painting crew; they arrive, prep, and paint according to the plan.</li><li>After completion, you pay the quoted amount and keep the itemized receipt for records.</li></ol>\n<h2>What you get and the cost guide</h2>\n<ul><li>Access to 8 trades: Packing &amp; Moving, Painting, Drywall, Flooring &amp; Vinyl, Framing, Doors, Window &amp; Door Trim, Roofing &amp; Tiles.</li><li>Free, written, itemized quote delivered within one business day.</li><li>Cost ranges from our August 2026 guide: full roof replacement $9,000‑$20,000; whole‑home interior repaint $3,000‑$8,000.</li><li>The guide recommends holding back 10‑15% of the quoted amount for hidden issues.</li></ul>\n<h2>FAQ</h2>\n<p><b>How quickly will I get a quote?</b> You will receive a written, itemized quote within one business day after submitting the form.</p>\n<p><b>Are you licensed and insured?</b> Yes, Build Heritage is licensed and insured in Georgia.</p>\n<p><b>Which areas do you serve?</b> We work in Atlanta, Marietta, Alpharetta, Roswell, Sandy Springs, Johns Creek, Duluth, Lawrenceville, Decatur, Smyrna, Kennesaw, Woodstock, Cumming, Gainesville, Athens, Augusta, Macon, Savannah, Columbus, and surrounding metro areas.</p>\n<p><b>What trades can you handle for my home?</b> We provide services in Painting, Drywall, Flooring &amp; Vinyl, Framing, Doors, Window &amp; Door Trim, Roofing &amp; Tiles, and Packing &amp; Moving.</p>\n<p>Start with a free quote now → <a href=\"https://buildheritage.org/itemized-contractor-quote-atlanta/\">Itemized Contractor Quote</a></p>",
+ "ld": [
+  {
+   "@context": "https://schema.org",
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "How quickly will I get a quote?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "You will receive a written, itemized quote within one business day after submitting the form."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Are you licensed and insured?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, Build Heritage is licensed and insured in Georgia."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Which areas do you serve?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We work in Atlanta, Marietta, Alpharetta, Roswell, Sandy Springs, Johns Creek, Duluth, Lawrenceville, Decatur, Smyrna, Kennesaw, Woodstock, Cumming, Gainesville, Athens, Augusta, Macon, Savannah, Columbus, and surrounding metro areas."
+     }
+    }
+   ]
+  }
+ ],
+ "keywords": [
+  "georgia residential contractor services"
+ ],
+ "updated": "2026-10-28",
+ "draft_id": "dc8092a0ce",
+ "source": "seo"
+}

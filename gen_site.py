@@ -457,11 +457,16 @@ def home_graph():
         {"@type": "WebPage", "@id": BASE_URL + "/#webpage", "url": BASE_URL + "/",
          "isPartOf": {"@id": BASE_URL + "/#website"}, "about": {"@id": BASE_URL + "/#org"},
          "dateModified": today},
-        {"@type": "Product", "@id": BASE_URL + "/#quote", "name": "Free itemized home improvement quote",
+        # A free estimate is a service, not merchandise: Product here put the page into Google's
+        # Merchant listings / Product snippets reports (image, shipping, returns, reviews required).
+        {"@type": "Service", "@id": BASE_URL + "/#quote", "name": "Free itemized home improvement quote",
+         "serviceType": "Home improvement estimate",
          "description": "A free, written, line-by-line itemized estimate for " + ", ".join(d["name"].lower() for d in SERVICES.values())
                         + " anywhere in Georgia, with no obligation.",
-         "brand": {"@id": BASE_URL + "/#org"},
-         "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD", "availability": "https://schema.org/InStock",
+         "image": BASE_URL + "/img/hero.jpg",
+         "provider": {"@id": BASE_URL + "/#org"},
+         "areaServed": {"@type": "State", "name": "Georgia"},
+         "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD",
                     "url": BASE_URL + "/#contact", "seller": {"@id": BASE_URL + "/#org"}}},
     ]}
 

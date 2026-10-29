@@ -1,0 +1,29 @@
+{
+ "path": "/atlanta-multi-trade-home-services/",
+ "title": "Atlanta Multi-Trade Home Services",
+ "h1": "Atlanta Multi-Trade Home Services",
+ "description": "You're looking for a reliable contractor in Atlanta who can handle multiple trades for your home services needs. On this site, you can get a free,",
+ "html": "<h1>Atlanta Multi-Trade Home Services</h1>\n<p>You're looking for a reliable contractor in Atlanta who can handle multiple trades for your home services needs. On this site, you can get a free, written, and itemized quote for services such as painting, drywall, flooring, and more, and receive a response within one business day.</p>\n<h2>How it Works for Homeowners in Atlanta</h2>\n<p>Build Heritage offers 8 trades, including packing and moving, framing, doors, window and door trim, and roofing and tiles. They serve the metro Atlanta area, including cities like Marietta, Alpharetta, and Roswell. You can contact them through the quote form or by emailing info@buildheritage.org. Their team is licensed and insured in Georgia.</p>\n<h2>What You Get and What it Costs</h2>\n<p>The cost of services varies, but you can expect to pay between $3,000-$8,000 for a whole-home interior repaint or $9,000-$20,000 for a full roof replacement. It's also recommended to hold back 10-15% of the quote for potential hidden issues. You can find more detailed cost information in the 2026 cost guide, which was updated in August 2026.</p>\n<h2>FAQ</h2>\n<p><b>What areas do you serve?</b> Build Heritage serves the metro Atlanta area, including cities like Atlanta, Marietta, Alpharetta, and Roswell. <b>How do I get a quote?</b> You can get a free quote by filling out the quote form or by emailing info@buildheritage.org. <b>Are you licensed and insured?</b> Yes, Build Heritage is licensed and insured in Georgia.</p>\n<p><a href=\"/itemized-contractor-quote-atlanta/\">Get your free quote today</a></p>",
+ "ld": [
+  {
+   "@context": "https://schema.org",
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "What areas do you serve?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Build Heritage serves the metro Atlanta area, including cities like Atlanta, Marietta, Alpharetta, and Roswell. **How do I get a quote?** You can get a free quote by filling out the quote form or by emailing info@buildheritage.org. **Are you licensed and insured?** Yes, Build Heritage is licensed and insured in Georgia."
+     }
+    }
+   ]
+  }
+ ],
+ "keywords": [
+  "atlanta multi-trade home services"
+ ],
+ "updated": "2026-10-29",
+ "draft_id": "d093d5e008",
+ "source": "seo"
+}

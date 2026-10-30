@@ -1,0 +1,45 @@
+{
+ "path": "/movers-atlanta/",
+ "title": "Movers Atlanta",
+ "h1": "Movers Atlanta",
+ "description": "You're looking for reliable movers in Atlanta to help with your packing and moving needs. On this site, you can get a free, written, and itemized quote",
+ "html": "<h1>Movers Atlanta</h1>\n<p>You're looking for reliable movers in Atlanta to help with your packing and moving needs. On this site, you can get a free, written, and itemized quote for moving services in Atlanta and surrounding areas, and receive a response within one business day.</p>\n<h2>How Moving Works with Build Heritage</h2>\n<p>Build Heritage offers packing and moving services as one of its 8 trades, serving metro Atlanta and Georgia. You can contact them through the quote form or email info@buildheritage.org to get started. They will provide you with a detailed quote for your moving needs.</p>\n<h2>What You Get and What It Costs</h2>\n<p>The cost of moving services can vary, but you can expect to pay a range of prices similar to other services offered by Build Heritage, such as $3,000-$8,000 for a whole-home interior repaint or $9,000-$20,000 for a full roof replacement. It's also recommended to hold back 10-15% on top of a quote for hidden issues.</p>\n<h2>FAQ</h2>\n<p><b>Do I get a written quote?</b> Yes, Build Heritage provides free, written, and itemized quotes for all services, including moving. <b>How long does it take to get a quote?</b> You will receive a response within one business day. <b>Is Build Heritage licensed and insured?</b> Yes, Build Heritage is licensed and insured in Georgia.</p>\n<p><a href=\"/itemized-contractor-quote-atlanta/\">Get your free moving quote today</a></p>",
+ "ld": [
+  {
+   "@context": "https://schema.org",
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Do I get a written quote?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, Build Heritage provides free, written, and itemized quotes for all services, including moving."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How long does it take to get a quote?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "You will receive a response within one business day."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Is Build Heritage licensed and insured?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, Build Heritage is licensed and insured in Georgia."
+     }
+    }
+   ]
+  }
+ ],
+ "keywords": [
+  "movers atlanta"
+ ],
+ "updated": "2026-10-30",
+ "draft_id": "d111c8ba45",
+ "source": "seo"
+}

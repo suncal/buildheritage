@@ -1,0 +1,45 @@
+{
+ "path": "/flooring-installation-atlanta/",
+ "title": "Flooring Installation Atlanta",
+ "h1": "Flooring Installation Atlanta",
+ "description": "Need a new floor in your Atlanta home? Build Heritage installs hardwood, laminate, and vinyl flooring across metro Atlanta and Georgia. We give you a",
+ "html": "<h1>Flooring Installation Atlanta</h1>\n<p>Need a new floor in your Atlanta home? Build Heritage installs hardwood, laminate, and vinyl flooring across metro Atlanta and Georgia. We give you a free, written, itemized quote and respond within one business day.</p>\n<h2>How a Flooring Project Works for an Atlanta Home</h2>\n<ol><li><b>Schedule a free quote</b> – Fill out the form or email info@buildheritage.org.</li><li><b>Site visit</b> – Our crew measures your rooms and discusses material options.</li><li><b>Receive an itemized quote</b> – You see every line item and the total cost.</li><li><b>Confirm and book</b> – We lock in the date and start prep work.</li><li><b>Installation</b> – Our team installs the floor, cleans up, and hands you the finished room.</li></ol>\n<h2>What You Get and How Much It Costs</h2>\n<ul><li><b>Eight trades</b>: flooring, drywall, painting, framing, doors, window &amp; door trim, roofing, packing &amp; moving.</li><li><b>Licensed and insured in Georgia</b>.</li><li><b>Cost guide</b> (August 2026): a full floor replacement ranges from <b>$3,000 to $8,000</b>.</li><li><b>Hold back 10‑15 %</b> of the quote for hidden issues, as advised in the cost guide.</li></ul>\n<h2>FAQ</h2>\n<p><b>Question?</b> *Do you handle all types of flooring?* Yes. We install hardwood, laminate, vinyl, and other residential flooring options.</p>\n<p><b>Question?</b> *How long does the quote process take?* We respond within one business day and give you a written, itemized quote.</p>\n<p><b>Question?</b> *What areas do you serve?* We cover Atlanta, Marietta, Alpharetta, Roswell, Sandy Springs, Johns Creek, Duluth, Lawrenceville, Decatur, Smyrna, Kennesaw, Woodstock, Cumming, Gainesville, Athens, Augusta, Macon, Savannah, and Columbus.</p>\n<p><a href=\"https://buildheritage.org/itemized-contractor-quote-atlanta/\">Get your free flooring quote now</a></p>",
+ "ld": [
+  {
+   "@context": "https://schema.org",
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Question?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "*Do you handle all types of flooring?* Yes. We install hardwood, laminate, vinyl, and other residential flooring options."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Question?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "*How long does the quote process take?* We respond within one business day and give you a written, itemized quote."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Question?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "*What areas do you serve?* We cover Atlanta, Marietta, Alpharetta, Roswell, Sandy Springs, Johns Creek, Duluth, Lawrenceville, Decatur, Smyrna, Kennesaw, Woodstock, Cumming, Gainesville, Athens, Augusta, Macon, Savannah, and Columbus."
+     }
+    }
+   ]
+  }
+ ],
+ "keywords": [
+  "flooring installation atlanta"
+ ],
+ "updated": "2026-10-30",
+ "draft_id": "d8dc1a91c2",
+ "source": "seo"
+}

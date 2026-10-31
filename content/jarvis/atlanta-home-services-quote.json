@@ -1,0 +1,45 @@
+{
+ "path": "/atlanta-home-services-quote/",
+ "title": "Atlanta Home Services Quote",
+ "h1": "Atlanta Home Services Quote",
+ "description": "You're looking for a reliable contractor to handle your home services needs in Atlanta, and you want a clear quote to get started. On this site, you can",
+ "html": "<h1>Atlanta Home Services Quote</h1>\n<p>You're looking for a reliable contractor to handle your home services needs in Atlanta, and you want a clear quote to get started. On this site, you can request a free, written, and itemized quote for various home services, and you'll receive a response within one business day.</p>\n<h2>How to Get Your Quote</h2>\n<p>To get your Atlanta home services quote, simply fill out the quote form or contact info@buildheritage.org. You can choose from 8 trades, including painting, drywall, flooring, and roofing. The quote will outline the costs and services included, so you can make an informed decision. For example, a whole-home interior repaint can cost between $3,000-$8,000, while a full roof replacement can range from $9,000-$20,000.</p>\n<h2>What You Get and What It Costs</h2>\n<p>The cost guide, updated in August 2026, provides ranges for different services to help you plan and budget. It's also recommended to hold back 10-15% on top of the quote for any hidden issues that may arise. As a licensed and insured contractor in Georgia, you can trust that the work will be done to high standards.</p>\n<h2>FAQ</h2>\n<p><b>What services do you offer?</b> Build Heritage offers 8 trades, including packing and moving, painting, drywall, flooring, and roofing. <b>How long does it take to get a quote?</b> You'll receive a response within one business day. <b>Are you licensed and insured?</b> Yes, Build Heritage is licensed and insured in Georgia.</p>\n<p><a href=\"/itemized-contractor-quote-atlanta/\">Get your free quote now</a></p>",
+ "ld": [
+  {
+   "@context": "https://schema.org",
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "What services do you offer?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Build Heritage offers 8 trades, including packing and moving, painting, drywall, flooring, and roofing."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How long does it take to get a quote?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "You'll receive a response within one business day."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Are you licensed and insured?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, Build Heritage is licensed and insured in Georgia."
+     }
+    }
+   ]
+  }
+ ],
+ "keywords": [
+  "atlanta home services quote"
+ ],
+ "updated": "2026-10-31",
+ "draft_id": "d4c00688ab",
+ "source": "seo"
+}

@@ -1,0 +1,45 @@
+{
+ "path": "/interior-painting-atlanta/",
+ "title": "Interior Painting Atlanta",
+ "h1": "Interior Painting Atlanta",
+ "description": "You're looking for a reliable contractor to paint the interior of your home or property in Atlanta, and you want to know what to expect. On this site, you",
+ "html": "<h1>Interior Painting Atlanta</h1>\n<p>You're looking for a reliable contractor to paint the interior of your home or property in Atlanta, and you want to know what to expect. On this site, you can get a free, written, and itemized quote for interior painting services, and you'll receive a response within one business day.</p>\n<h2>How it Works for Interior Painting in Atlanta</h2>\n<p>To get started, you can fill out the quote form or contact Build Heritage at info@buildheritage.org. The company serves the metro Atlanta area, including cities like Marietta, Alpharetta, and Roswell. They offer interior painting as one of their 8 trades, with prices ranging from $3,000 to $8,000 for a whole-home repaint, according to their 2026 cost guide updated in August 2026. You can also visit the <a href=\"/cost-guide.html\">cost guide page</a> for more information on pricing.</p>\n<h2>What You Get and What it Costs</h2>\n<p>Build Heritage provides licensed and insured services in Georgia, with a focus on quality and trust. They advise holding back 10-15% on top of a quote for hidden issues. You can visit the <a href=\"/services/painting.html\">services page</a> to learn more about their interior painting services.</p>\n<h2>FAQ</h2>\n<p><b>What areas do you serve?</b> Build Heritage serves the metro Atlanta area, including cities like Atlanta, Marietta, and Alpharetta. You can visit the <a href=\"/service-areas.html\">service areas page</a> for a full list of areas they serve. <b>How do I get a quote?</b> You can fill out the quote form or contact Build Heritage at info@buildheritage.org to get a free, written, and itemized quote. <b>What is the typical cost of interior painting?</b> The cost of interior painting can range from $3,000 to $8,000 for a whole-home repaint, according to the 2026 cost guide.</p>\n<p><a href=\"/itemized-contractor-quote-atlanta/\">Get a quote for interior painting in Atlanta</a></p>",
+ "ld": [
+  {
+   "@context": "https://schema.org",
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "What areas do you serve?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Build Heritage serves the metro Atlanta area, including cities like Atlanta, Marietta, and Alpharetta. You can visit the [service areas page](/service-areas.html) for a full list of areas they serve."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How do I get a quote?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "You can fill out the quote form or contact Build Heritage at info@buildheritage.org to get a free, written, and itemized quote."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What is the typical cost of interior painting?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The cost of interior painting can range from $3,000 to $8,000 for a whole-home repaint, according to the 2026 cost guide."
+     }
+    }
+   ]
+  }
+ ],
+ "keywords": [
+  "interior painting atlanta"
+ ],
+ "updated": "2026-11-01",
+ "draft_id": "d13af8b923",
+ "source": "seo"
+}

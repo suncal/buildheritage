@@ -1,0 +1,46 @@
+{
+ "path": "/roofing-contractor-near-me/",
+ "title": "Roofing Contractor Near Me – Build Heritage",
+ "h1": "Roofing Contractor Near Me – Build Heritage",
+ "description": "You can get a free, written and itemized roof replacement quote within one business day. Build Heritage serves metro Atlanta and the wider Georgia area",
+ "html": "<h1>Roofing Contractor Near Me – Build Heritage</h1>\n<p>You can get a free, written and itemized roof replacement quote within one business day. Build Heritage serves metro Atlanta and the wider Georgia area with licensed and insured roofing professionals.</p>\n<h2>How the roof replacement process works</h2>\n<ol><li>Submit the quote form or email info@buildheritage.org.</li><li>Receive a detailed estimate in one business day.</li><li>Our crew removes the old roof, installs new roofing and tiles, and cleans the site.</li><li>Review the itemized quote, approve the work, and we schedule the start date.</li></ol>\n<h2>What you can expect</h2>\n<ul><li>Full roof replacement covering the roofing and tile trade.</li><li>Cost guide (updated August 2026) shows typical residential roof replacement between <b>$9,000‑$20,000</b>.</li><li>Hold back <b>10‑15%</b> of the quoted amount to cover any hidden issues that may appear during the project.</li></ul>\n<h2>Service areas</h2>\n<p>We work in Atlanta, Marietta, Alpharetta, Roswell, Sandy Springs, Johns Creek, Duluth, Lawrenceville, Decatur, Smyrna, Kennesaw, Woodstock, Cumming, Gainesville, Athens, Augusta, Macon, Savannah and Columbus.</p>\n<h2>Additional trades we offer</h2>\n<p>Beyond roofing, Build Heritage provides packing &amp; moving, painting, drywall, flooring &amp; vinyl, framing, doors, and window‑door trim.</p>\n<h2>FAQ</h2>\n<p><b>How quickly will I receive a quote?</b> You will get a written, itemized estimate within one business day of contacting us.</p>\n<p><b>Are you licensed and insured in Georgia?</b> Yes. Build Heritage is licensed and insured in Georgia.</p>\n<p><b>Do you serve my location?</b> We cover the full list of cities above. If you are unsure, check our service areas page.</p>\n<p><b>Can I get a cost guide for my project?</b> The cost guide is available on our website and includes the $9,000‑$20,000 range for roof replacement.</p>\n<h2>Next step</h2>\n<p>Ready to start? Fill out the quote form or email info@buildheritage.org to request your free roof replacement quote today.</p>",
+ "ld": [
+  {
+   "@context": "https://schema.org",
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "How quickly will I receive a quote?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "You will get a written, itemized estimate within one business day of contacting us."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Are you licensed and insured in Georgia?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. Build Heritage is licensed and insured in Georgia."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Do you serve my location?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We cover the full list of cities above. If you are unsure, check our service areas page."
+     }
+    }
+   ]
+  }
+ ],
+ "keywords": [
+  "roofing contractor near me",
+  "roofing contractor atlanta"
+ ],
+ "updated": "2026-11-01",
+ "draft_id": "d06b131491",
+ "source": "seo"
+}

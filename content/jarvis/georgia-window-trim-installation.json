@@ -1,0 +1,45 @@
+{
+ "path": "/georgia-window-trim-installation/",
+ "title": "Georgia Window Trim Installation",
+ "h1": "Georgia Window Trim Installation",
+ "description": "Build Heritage installs window trim for homes across Georgia. You can request a free, written, itemized quote and receive a response within one business",
+ "html": "<h1>Georgia Window Trim Installation</h1>\n<p>Build Heritage installs window trim for homes across Georgia. You can request a free, written, itemized quote and receive a response within one business day.</p>\n<h2>How the process works</h2>\n<ol><li>Complete the <b>Itemized Contractor Quote</b> form.</li><li>A licensed and insured Build Heritage representative reviews your request and replies within one business day.</li><li>You receive a detailed quote that breaks down labor, materials, and any finish options.</li><li>Approve the quote, set a date, and the crew arrives to install the trim.</li></ol>\n<h2>What you can expect</h2>\n<ul><li>The work is performed by our <b>Window &amp; Door Trim</b> trade, one of eight specialized trades we offer.</li><li>The 2026 cost guide (updated August 2026) shows interior trim projects typically range from <b>$3,000‑$8,000</b> for a whole‑home job.</li><li>We recommend holding back <b>10‑15 %</b> of the quoted amount to cover any hidden issues that may arise once work begins.</li></ul>\n<h2>Service areas</h2>\n<p>We serve Atlanta and the surrounding cities of Marietta, Alpharetta, Roswell, Sandy Springs, Johns Creek, Duluth, Lawrenceville, Decatur, Smyrna, Kennesaw, Woodstock, Cumming, Gainesville, Athens, Augusta, Macon, Savannah, and Columbus.</p>\n<h2>FAQ</h2>\n<p><b>How fast will I get a quote?</b> You will receive a written, itemized estimate within one business day after submitting the form.</p>\n<p><b>Do you cover my location?</b> Yes. Our service area includes Atlanta and the listed surrounding cities throughout Georgia.</p>\n<p><b>What should I do if hidden damage is discovered?</b> The cost guide advises reserving 10‑15 % of the quoted price for unexpected issues. Any extra work will be discussed and quoted before it proceeds.</p>\n<h2>Next step</h2>\n<p><a href=\"/itemized-contractor-quote-atlanta/\">Request your free window trim installation quote now</a> and let Build Heritage provide a clear, itemized plan for your project.</p>",
+ "ld": [
+  {
+   "@context": "https://schema.org",
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "How fast will I get a quote?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "You will receive a written, itemized estimate within one business day after submitting the form."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Do you cover my location?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. Our service area includes Atlanta and the listed surrounding cities throughout Georgia."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What should I do if hidden damage is discovered?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The cost guide advises reserving 10‑15 % of the quoted price for unexpected issues. Any extra work will be discussed and quoted before it proceeds."
+     }
+    }
+   ]
+  }
+ ],
+ "keywords": [
+  "georgia window trim installation"
+ ],
+ "updated": "2026-11-02",
+ "draft_id": "d2373a9314",
+ "source": "seo"
+}

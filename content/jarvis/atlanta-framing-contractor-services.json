@@ -1,0 +1,45 @@
+{
+ "path": "/atlanta-framing-contractor-services/",
+ "title": "Atlanta Framing Contractor Services",
+ "h1": "Atlanta Framing Contractor Services",
+ "description": "Build Heritage is a Georgia contractor that does framing for homes in Atlanta and the surrounding metro area. You can get a free, written and itemized",
+ "html": "<h1>Atlanta Framing Contractor Services</h1>\n<p>Build Heritage is a Georgia contractor that does framing for homes in Atlanta and the surrounding metro area. You can get a free, written and itemized quote and hear back within one business day.</p>\n<h2>How the process works</h2>\n<ol><li>Complete the quote form on the <b><a href=\"/itemized-contractor-quote-atlanta/\">Itemized Contractor Quote – Atlanta</a></b> page or email info@buildheritage.org.</li><li>A Georgia‑licensed and insured contractor reviews your details and replies within one business day with a written estimate.</li><li>You approve the estimate and schedule the work.</li><li>The framing work is performed on the agreed schedule.</li></ol>\n<h2>What you receive</h2>\n<ul><li>A free, written and itemized quote.</li><li>A Georgia‑licensed and insured contractor will do the work.</li><li>If you need other services, you can access our eight trades: packing &amp; moving, painting, drywall, flooring &amp; vinyl, framing, doors, window &amp; door trim, and roofing &amp; tiles.</li><li>The 2026 cost guide gives ranges: a full roof replacement is $9,000‑$20,000 and a whole‑home interior repaint is $3,000‑$8,000.</li><li>The cost guide recommends holding back 10‑15 % of the quoted amount for hidden issues.</li></ul>\n<h2>FAQ</h2>\n<p><b>How long does it take to receive a quote?</b> You will receive a written, itemized estimate within one business day of submitting the form or emailing us.</p>\n<p><b>Are you licensed and insured in Georgia?</b> Yes, Build Heritage is licensed and insured in the state of Georgia.</p>\n<p><b>What if hidden problems appear during framing?</b> The cost guide advises setting aside 10‑15 % of the quoted amount to cover any unforeseen issues that may arise.</p>\n<h2>Next step</h2>\n<p>Ready to start your framing project? <b><a href=\"/itemized-contractor-quote-atlanta/\">Request your free quote now</a></b>.</p>",
+ "ld": [
+  {
+   "@context": "https://schema.org",
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "How long does it take to receive a quote?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "You will receive a written, itemized estimate within one business day of submitting the form or emailing us."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Are you licensed and insured in Georgia?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, Build Heritage is licensed and insured in the state of Georgia."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What if hidden problems appear during framing?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The cost guide advises setting aside 10‑15 % of the quoted amount to cover any unforeseen issues that may arise."
+     }
+    }
+   ]
+  }
+ ],
+ "keywords": [
+  "atlanta framing contractor services"
+ ],
+ "updated": "2026-11-02",
+ "draft_id": "dc5874dd8a",
+ "source": "seo"
+}

@@ -1,0 +1,45 @@
+{
+ "path": "/licensed-insured-contractor-atlanta/",
+ "title": "Licensed Insured Contractor Atlanta",
+ "h1": "Licensed Insured Contractor Atlanta",
+ "description": "You're looking for a reliable contractor in Atlanta who is licensed and insured, and you want to know how to get started with your project. On this site,",
+ "html": "<h1>Licensed Insured Contractor Atlanta</h1>\n<p>You're looking for a reliable contractor in Atlanta who is licensed and insured, and you want to know how to get started with your project. On this site, you can find information about Build Heritage, a Georgia home-services contractor serving metro Atlanta and Georgia, and request a free, written, and itemized quote for your project.</p>\n<h2>How it Works for Your Atlanta Project</h2>\n<p>Build Heritage offers 8 trades, including painting, drywall, flooring, and roofing, and serves areas such as Atlanta, Marietta, Alpharetta, and Roswell. You can contact them through the quote form or by emailing info@buildheritage.org. They will respond within one business day with a quote that outlines the costs and scope of your project.</p>\n<h2>What You Get and What it Costs</h2>\n<p>The 2026 cost guide, updated in August 2026, provides ranges for common projects, such as full roof replacement ($9,000-$20,000) and whole-home interior repaint ($3,000-$8,000). It's also recommended to hold back 10-15% on top of a quote for hidden issues.</p>\n<h2>FAQ</h2>\n<p><b>What areas do you serve?</b> Build Heritage serves metro Atlanta and Georgia, including cities like Atlanta, Marietta, and Alpharetta. <b>How do I get a quote?</b> You can request a quote through the quote form or by emailing info@buildheritage.org. <b>Are you licensed and insured?</b> Yes, Build Heritage is licensed and insured in Georgia.</p>\n<p><a href=\"/itemized-contractor-quote-atlanta/\">Get a free quote for your project</a></p>",
+ "ld": [
+  {
+   "@context": "https://schema.org",
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "What areas do you serve?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Build Heritage serves metro Atlanta and Georgia, including cities like Atlanta, Marietta, and Alpharetta."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How do I get a quote?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "You can request a quote through the quote form or by emailing info@buildheritage.org."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Are you licensed and insured?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, Build Heritage is licensed and insured in Georgia."
+     }
+    }
+   ]
+  }
+ ],
+ "keywords": [
+  "licensed insured contractor atlanta"
+ ],
+ "updated": "2026-11-02",
+ "draft_id": "ddcea5815f",
+ "source": "seo"
+}

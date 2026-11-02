@@ -1,0 +1,45 @@
+{
+ "path": "/property-manager-renovation-quote-atlanta/",
+ "title": "Property Manager Renovation Quote Atlanta",
+ "h1": "Property Manager Renovation Quote Atlanta",
+ "description": "Build Heritage offers Atlanta property managers a free, written, and itemized renovation quote. Submit the quote form or email info@buildheritage.org and",
+ "html": "<h1>Property Manager Renovation Quote Atlanta</h1>\n<p>Build Heritage offers Atlanta property managers a free, written, and itemized renovation quote. Submit the quote form or email info@buildheritage.org and you’ll hear back within one business day.</p>\n<h2>How the quote process works</h2>\n<ol><li>Open the quote form for Atlanta.</li><li>Enter the property address, square footage, and the trades you need (painting, drywall, flooring, etc.).</li><li>Submit the request.</li><li>Within one business day you receive a PDF that breaks down labor and material costs for each selected trade.</li></ol>\n<h2>What the quote includes</h2>\n<ul><li>A written, itemized estimate for any of the eight trades Build Heritage offers: Packing &amp; Moving, Painting, Drywall, Flooring &amp; Vinyl, Framing, Doors, Window &amp; Door Trim, Roofing &amp; Tiles.</li><li>The 2026 cost guide (updated August 2026) shows typical ranges, for example a full roof replacement $9,000‑$20,000 or a whole‑home interior repaint $3,000‑$8,000.</li><li>The guide recommends holding back 10‑15 % of the quoted amount for hidden issues.</li></ul>\n<h2>FAQ</h2>\n<p><b>How fast will I receive the quote?</b> You will get a written, itemized quote within one business day of submitting the form.</p>\n<p><b>Is Build Heritage licensed and insured in Georgia?</b> Yes. Build Heritage is licensed and insured in Georgia.</p>\n<p><b>Can I request more than one trade in a single quote?</b> Yes. Include any combination of the eight available trades in your request.</p>\n<h2>Next step</h2>\n<p><a href=\"/itemized-contractor-quote-atlanta/\">Request your property‑manager renovation quote for Atlanta now</a></p>",
+ "ld": [
+  {
+   "@context": "https://schema.org",
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "How fast will I receive the quote?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "You will get a written, itemized quote within one business day of submitting the form."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Is Build Heritage licensed and insured in Georgia?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. Build Heritage is licensed and insured in Georgia."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can I request more than one trade in a single quote?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. Include any combination of the eight available trades in your request."
+     }
+    }
+   ]
+  }
+ ],
+ "keywords": [
+  "property manager renovation quote atlanta"
+ ],
+ "updated": "2026-11-02",
+ "draft_id": "d965c5fa46",
+ "source": "seo"
+}

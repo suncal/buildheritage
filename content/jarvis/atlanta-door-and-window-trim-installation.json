@@ -1,0 +1,45 @@
+{
+ "path": "/atlanta-door-and-window-trim-installation/",
+ "title": "Atlanta Door and Window Trim Installation",
+ "h1": "Atlanta Door and Window Trim Installation",
+ "description": "Get precise, itemized quotes for door and window trim work in Atlanta. We handle framing, trim, doors, and windows with a focus on quality and trust.",
+ "html": "<h1>Atlanta Door and Window Trim Installation</h1>\n<p>Get precise, itemized quotes for door and window trim work in Atlanta. We handle framing, trim, doors, and windows with a focus on quality and trust.</p>\n<h2>How the process works for an Atlanta trim job</h2>\n<ol><li><b>Request a quote</b> – Fill out the form on the site or email info@buildheritage.org.</li><li><b>We review the details</b> – Our team looks at your measurements and design preferences.</li><li><b>You receive a written, itemized quote</b> – Delivered within one business day.</li><li><b>Schedule the work</b> – Once you approve, we set a date that fits your timeline.</li><li><b>Installation</b> – Skilled craftsmen install trim, doors, and windows, finishing with paint or stain as requested.</li></ol>\n<h2>What you get, costs, and limits</h2>\n<ul><li><b>Licensed and insured in Georgia</b> contractors.</li><li><b>Eight trades</b> covered: packing &amp; moving, painting, drywall, flooring &amp; vinyl, framing, doors, window &amp; door trim, roofing &amp; tiles.</li><li><b>Free, written, itemized quotes</b> with a response time of one business day.</li><li><b>Cost guide</b> (updated August 2026) provides ranges: full roof replacement $9,000‑$20,000, whole‑home interior repaint $3,000‑$8,000.</li><li><b>Hold back 10‑15%</b> on top of the quote for hidden issues, as advised in the guide.</li></ul>\n<h2>FAQ</h2>\n<p><b>Question?</b> How long will the trim installation take? <b>Answer:</b> The schedule is set after the quote approval. Typical projects finish within the agreed timeframe.</p>\n<p><b>Question?</b> Do you handle both interior and exterior trim? <b>Answer:</b> Yes, we install trim for doors and windows inside and outside the home.</p>\n<p><b>Question?</b> What if I need a different style of trim? <b>Answer:</b> We discuss options and include the chosen style in the itemized quote.</p>\n<p>Ready to get started? <a href=\"https://buildheritage.org/itemized-contractor-quote-atlanta/\">Request your free quote</a></p>",
+ "ld": [
+  {
+   "@context": "https://schema.org",
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Question?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "How long will the trim installation take?"
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Answer:** The schedule is set after the quote approval. Typical projects finish within the agreed timeframe.\n\n**Question?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Do you handle both interior and exterior trim?"
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Answer:** Yes, we install trim for doors and windows inside and outside the home.\n\n**Question?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "What if I need a different style of trim?"
+     }
+    }
+   ]
+  }
+ ],
+ "keywords": [
+  "atlanta door and window trim installation"
+ ],
+ "updated": "2026-11-04",
+ "draft_id": "dfe3a78e69",
+ "source": "seo"
+}

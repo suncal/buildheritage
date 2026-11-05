@@ -1,0 +1,45 @@
+{
+ "path": "/house-painters-marietta/",
+ "title": "House Painters Marietta",
+ "h1": "House Painters Marietta",
+ "description": "You’re looking for a reliable painter in Marietta. Build Heritage gives free, written, itemized quotes and replies within one business day.",
+ "html": "<h1>House Painters Marietta</h1>\n<p>You’re looking for a reliable painter in Marietta. Build Heritage gives free, written, itemized quotes and replies within one business day.</p>\n<h2>How a Marietta painting project starts</h2>\n<ol><li><b>Request a quote</b> – Fill out the online form or email info@buildheritage.org.</li><li><b>We review your details</b> – We note surface type, size, and any special requests.</li><li><b>You receive a written, itemized quote</b> – Delivered within one business day.</li><li><b>Schedule the work</b> – Pick a date that fits your calendar.</li><li><b>We paint your home</b> – Using quality materials and skilled labor.</li></ol>\n<h2>What you get and the cost</h2>\n<ul><li><b>Eight trades</b>: Painting, drywall, flooring &amp; vinyl, framing, doors, window &amp; door trim, roofing &amp; tiles, packing &amp; moving.</li><li><b>Licensed and insured in Georgia</b>.</li><li><b>Cost guide</b> (updated August 2026):</li><li>Full roof replacement: $9,000–$20,000</li><li>Whole‑home interior repaint: $3,000–$8,000</li><li><b>Hold back 10‑15%</b> on top of the quote for hidden issues.</li></ul>\n<h2>FAQ</h2>\n<p><b>Do you paint residential homes?</b> Yes, we serve residential properties in Marietta and the surrounding metro Atlanta area.</p>\n<p><b>What areas do you cover?</b> We work in Marietta, Atlanta, Alpharetta, Roswell, Sandy Springs, Johns Creek, Duluth, Lawrenceville, Decatur, Smyrna, Kennesaw, Woodstock, Cumming, Gainesville, Athens, Augusta, Macon, Savannah, and Columbus.</p>\n<p><b>How long does it take to get a quote?</b> We reply within one business day.</p>\n<p><a href=\"https://buildheritage.org/itemized-contractor-quote-atlanta/\">Get your free painting quote for Marietta</a></p>",
+ "ld": [
+  {
+   "@context": "https://schema.org",
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Do you paint residential homes?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, we serve residential properties in Marietta and the surrounding metro Atlanta area."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What areas do you cover?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We work in Marietta, Atlanta, Alpharetta, Roswell, Sandy Springs, Johns Creek, Duluth, Lawrenceville, Decatur, Smyrna, Kennesaw, Woodstock, Cumming, Gainesville, Athens, Augusta, Macon, Savannah, and Columbus."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How long does it take to get a quote?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We reply within one business day."
+     }
+    }
+   ]
+  }
+ ],
+ "keywords": [
+  "house painters marietta"
+ ],
+ "updated": "2026-11-05",
+ "draft_id": "d08e197b96",
+ "source": "seo"
+}

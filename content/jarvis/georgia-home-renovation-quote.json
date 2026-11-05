@@ -1,0 +1,45 @@
+{
+ "path": "/georgia-home-renovation-quote/",
+ "title": "Georgia Home Renovation Quote",
+ "h1": "Georgia Home Renovation Quote",
+ "description": "Yes, you can get a free, written and itemized quote for any residential renovation in Georgia. Fill out the quote form or email us and we’ll respond",
+ "html": "<h1>Georgia Home Renovation Quote</h1>\n<p>Yes, you can get a free, written and itemized quote for any residential renovation in Georgia. Fill out the quote form or email us and we’ll respond within one business day.</p>\n<h2>How it works for a single‑family home remodel</h2>\n<ol><li>Visit the <b>Itemized Contractor Quote</b> page and complete the short form with your address and the work you need.</li><li>Our team reviews the details and prepares a written estimate that breaks down each trade—painting, drywall, flooring, framing, doors, window‑door trim, roofing, and packing &amp; moving.</li><li>You receive the quote by email within one business day, ready to compare with other options.</li></ol>\n<h2>What you get, the cost guide range, and limits</h2>\n<ul><li><b>Eight trades</b> covered, so you can bundle painting, flooring, roofing, etc., in one quote.</li><li>The <b>2026 cost guide</b> shows typical ranges: full roof replacement $9,000‑$20,000; whole‑home interior repaint $3,000‑$8,000.</li><li>The guide advises holding back <b>10‑15 %</b> of the quoted amount for hidden issues.</li><li>Quotes are <b>free</b>, written, and itemized; no hidden fees.</li><li>Build Heritage is <b>licensed and insured in Georgia</b> and serves Atlanta, Marietta, Alpharetta, Roswell, Sandy Springs, Johns Creek, Duluth, Lawrenceville, Decatur, Smyrna, Kennesaw, Woodstock, Cumming, Gainesville, Athens, Augusta, Macon, Savannah, and Columbus.</li></ul>\n<h2>FAQ</h2>\n<p><b>How long does it take to receive the quote?</b> We email the written, itemized estimate within one business day after you submit the form.</p>\n<p><b>Can I request a quote for multiple trades at once?</b> Yes. Include any combination of the eight trades listed, and the estimate will show each line item separately.</p>\n<p><b>Do you work with HOAs, property managers, or investors?</b> Our services are available to property managers, HOAs, brokers, and investors throughout the listed Georgia service areas.</p>\n<p><a href=\"/itemized-contractor-quote-atlanta/\">Get your free Georgia home renovation quote now</a></p>",
+ "ld": [
+  {
+   "@context": "https://schema.org",
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "How long does it take to receive the quote?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We email the written, itemized estimate within one business day after you submit the form."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can I request a quote for multiple trades at once?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. Include any combination of the eight trades listed, and the estimate will show each line item separately."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Do you work with HOAs, property managers, or investors?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Our services are available to property managers, HOAs, brokers, and investors throughout the listed Georgia service areas."
+     }
+    }
+   ]
+  }
+ ],
+ "keywords": [
+  "georgia home renovation quote"
+ ],
+ "updated": "2026-11-05",
+ "draft_id": "d2c56f855a",
+ "source": "seo"
+}

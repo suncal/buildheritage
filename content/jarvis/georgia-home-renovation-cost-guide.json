@@ -1,0 +1,45 @@
+{
+ "path": "/georgia-home-renovation-cost-guide/",
+ "title": "Georgia Home Renovation Cost Guide",
+ "h1": "Georgia Home Renovation Cost Guide",
+ "description": "You’ll find typical price ranges for common home‑renovation projects in Georgia and learn how to request a free, written, itemized quote from Build",
+ "html": "<h1>Georgia Home Renovation Cost Guide</h1>\n<p>You’ll find typical price ranges for common home‑renovation projects in Georgia and learn how to request a free, written, itemized quote from Build Heritage.</p>\n<h2>How to get a free quote for a whole‑home interior repaint</h2>\n<ol><li>Open the <b>Cost Guide</b> page and locate the “Whole‑home interior repaint” range.</li><li>Click the <b>Itemized contractor quote</b> link, fill in the short form with your address and square footage.</li><li>Build Heritage replies within one business day with a free, written, itemized estimate.</li><li>Add the recommended 10‑15% contingency for hidden issues and schedule the painting crew.</li></ol>\n<h2>Typical cost ranges</h2>\n<ul><li><b>Full interior repaint:</b> <b>$3,000‑$8,000</b> (August 2026 guide).</li><li><b>Full roof replacement:</b> <b>$9,000‑$20,000</b> (August 2026 guide).</li></ul>\n<p>Estimates include labor, materials, surface preparation, and cleanup for the listed trades.</p>\n<h2>Services and coverage</h2>\n<p>Build Heritage works in metro Atlanta and across Georgia, including Atlanta, Marietta, Alpharetta, Roswell, Sandy Springs, Johns Creek, Duluth, Lawrenceville, Decatur, Smyrna, Kennesaw, Woodstock, Cumming, Gainesville, Athens, Augusta, Macon, Savannah, and Columbus.</p>\n<p>The company offers eight trades: Packing &amp; Moving, Painting, Drywall, Flooring &amp; Vinyl, Framing, Doors, Window &amp; Door Trim, and Roofing &amp; Tiles.</p>\n<p>All work is performed by a contractor <b>licensed and insured in Georgia</b>.</p>\n<h2>FAQ</h2>\n<p><b>How quickly will I receive a quote?</b> You’ll get a free, written, itemized quote within one business day after submitting the online form.</p>\n<p><b>Should I budget extra for unexpected problems?</b> The guide advises holding back <b>10‑15%</b> of the quoted amount to cover hidden issues that may arise during the project.</p>\n<p><b>Which trades can Build Heritage handle?</b> Packing &amp; Moving, Painting, Drywall, Flooring &amp; Vinyl, Framing, Doors, Window &amp; Door Trim, and Roofing &amp; Tiles.</p>\n<p>---</p>\n<p><b>Next step:</b> <a href=\"/itemized-contractor-quote-atlanta/\">Get your free, itemized quote now</a>.</p>",
+ "ld": [
+  {
+   "@context": "https://schema.org",
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "How quickly will I receive a quote?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "You’ll get a free, written, itemized quote within one business day after submitting the online form."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Should I budget extra for unexpected problems?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The guide advises holding back **10‑15%** of the quoted amount to cover hidden issues that may arise during the project."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Which trades can Build Heritage handle?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Packing & Moving, Painting, Drywall, Flooring & Vinyl, Framing, Doors, Window & Door Trim, and Roofing & Tiles."
+     }
+    }
+   ]
+  }
+ ],
+ "keywords": [
+  "georgia home renovation cost guide"
+ ],
+ "updated": "2026-11-05",
+ "draft_id": "d217d0d812",
+ "source": "seo"
+}

@@ -1,0 +1,45 @@
+{
+ "path": "/home-services-company-atlanta/",
+ "title": "Home Services Company Atlanta",
+ "h1": "Home Services Company Atlanta",
+ "description": "Build Heritage is the home‑services contractor you need in metro Atlanta and the surrounding Georgia cities. We handle eight trades—Packing & Moving,",
+ "html": "<h1>Home Services Company Atlanta</h1>\n<p>Build Heritage is the home‑services contractor you need in metro Atlanta and the surrounding Georgia cities. We handle eight trades—Packing &amp; Moving, Painting, Drywall, Flooring &amp; Vinyl, Framing, Doors, Window &amp; Door Trim, and Roofing &amp; Tiles—so you can get a single, itemized quote for any project.</p>\n<h2>How to Get a Quote</h2>\n<ol><li>Fill out the online form or email info@buildheritage.org.</li><li>Receive a written, itemized estimate within one business day.</li><li>Review the estimate, approve it, and schedule the work.</li><li>Our crew completes the job, and we walk through the finished work with you.</li></ol>\n<h2>What to Expect</h2>\n<ul><li><b>Free, written, itemized quotes</b> delivered in one business day.</li><li><b>Cost ranges</b> from the 2026 cost guide: full roof replacement $9,000–$20,000; whole‑home interior repaint $3,000–$8,000.</li><li><b>Hold back 10–15 %</b> of the quoted amount for hidden issues.</li><li><b>Licensed and insured in Georgia.</b></li><li>Service areas include Atlanta, Marietta, Alpharetta, Roswell, Sandy Springs, Johns Creek, Duluth, Lawrenceville, Decatur, Smyrna, Kennesaw, Woodstock, Cumming, Gainesville, Athens, Augusta, Macon, Savannah, and Columbus.</li></ul>\n<h2>FAQ</h2>\n<p><b>How quickly will I get a quote?</b> You’ll receive a written, itemized quote within one business day after you submit the form or email.</p>\n<p><b>Do you work in other Atlanta‑area cities?</b> Yes. Build Heritage serves Atlanta, Marietta, Alpharetta, Roswell, Sandy Springs, Johns Creek, Duluth, Lawrenceville, Decatur, Smyrna, Kennesaw, Woodstock, Cumming, Gainesville, Athens, Augusta, Macon, Savannah, and Columbus.</p>\n<p><b>What trades are included?</b> We provide Packing &amp; Moving, Painting, Drywall, Flooring &amp; Vinyl, Framing, Doors, Window &amp; Door Trim, and Roofing &amp; Tiles.</p>\n<h2>Next Step</h2>\n<p>Ready to start your project? <a href=\"/itemized-contractor-quote-atlanta/\">Get your free quote now</a>.</p>",
+ "ld": [
+  {
+   "@context": "https://schema.org",
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "How quickly will I get a quote?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "You’ll receive a written, itemized quote within one business day after you submit the form or email."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Do you work in other Atlanta‑area cities?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. Build Heritage serves Atlanta, Marietta, Alpharetta, Roswell, Sandy Springs, Johns Creek, Duluth, Lawrenceville, Decatur, Smyrna, Kennesaw, Woodstock, Cumming, Gainesville, Athens, Augusta, Macon, Savannah, and Columbus."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What trades are included?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We provide Packing & Moving, Painting, Drywall, Flooring & Vinyl, Framing, Doors, Window & Door Trim, and Roofing & Tiles."
+     }
+    }
+   ]
+  }
+ ],
+ "keywords": [
+  "home services company atlanta"
+ ],
+ "updated": "2026-11-05",
+ "draft_id": "df5982b937",
+ "source": "seo"
+}
